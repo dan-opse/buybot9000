@@ -1,6 +1,7 @@
 import time
 import logging
 import random
+import pyautogui
 from datetime import datetime
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -15,6 +16,7 @@ import undetected_chromedriver as uc
 import json
 import os
 from helpers import human_like_delay, human_like_typing, save_cookies, load_cookies
+from selenium_stealth import stealth
 
 # Load environment variables
 load_dotenv()
@@ -63,14 +65,15 @@ class PokemonTCGBot:
             with open('config.json', 'r') as f:
                 config = json.load(f)
                 self.target_keywords = config.get('target_keywords', [])
-                self.check_interval = config.get('check_interval', 60)
+                self.check_interval = config.get('check_interval', 30)
                 self.exact_product_url = config.get('exact_product_url', "")
                 self.category_url = config.get('category_url', f"{self.base_url}/category/tcg-cards")
-                self.random_delay_min = config.get('random_delay_min', 1)
-                self.random_delay_max = config.get('random_delay_max', 4)
-                self.quantity = config.get('quantity', 1)  # Load quantity from config
-                self.retry_limit = config.get('retry_limit', 3)  # Retry limit for failed actions
-                self.headless_mode = config.get('headless_mode', False)  # Headless mode
+                self.random_delay_min = config.get('random_delay_min', 2)
+                self.random_delay_max = config.get('random_delay_max', 6)
+                self.quantity = config.get('quantity', 1)
+                self.retry_limit = config.get('retry_limit', 3)
+                self.headless_mode = config.get('headless_mode', False)
+                self.proxies = config.get('proxies', [])  # Load proxies from config
                 logger.info(f"Loaded configuration: targeting {self.target_keywords}, quantity: {self.quantity}")
         except FileNotFoundError:
             logger.error("Config file not found. Creating default config.")
@@ -84,8 +87,8 @@ class PokemonTCGBot:
             "exact_product_url": "",
             "category_url": f"{self.base_url}/category/tcg-cards",
             "max_price": 199.99,
-            "random_delay_min": 1,
-            "random_delay_max": 4,
+            "random_delay_min": 2,
+            "random_delay_max": 6,
             "quantity": 4,  # Default quantity
             "retry_limit": 3,  # Default retry limit
             "headless_mode": False  # Default headless mode
@@ -102,24 +105,76 @@ class PokemonTCGBot:
         self.headless_mode = default_config["headless_mode"]
 
     def setup_browser(self):
-        """Initializes the browser. No webpage interaction."""
+        """Initialize the browser with anti-detection measures and proxy support."""
         try:
             options = uc.ChromeOptions()
-            options.add_argument("--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
+            options.add_argument("--disable-blink-features=AutomationControlled")
             options.add_argument("--disable-popup-blocking")
             options.add_argument("--disable-notifications")
+            options.add_argument("--disable-extensions")
+            options.add_argument("--disable-gpu")
+            options.add_argument("--no-sandbox")
+            options.add_argument("--disable-dev-shm-usage")
+            options.add_argument("--remote-debugging-port=9222")
+            options.add_argument("--disable-web-security")
+            options.add_argument("--allow-running-insecure-content")
+            options.add_argument("--ignore-certificate-errors")
+            options.add_argument("--disable-infobars")
+            options.add_argument("--disable-browser-side-navigation")
+            options.add_argument("--disable-background-networking")
+            options.add_argument("--disable-background-timer-throttling")
+            options.add_argument("--disable-backgrounding-occluded-windows")
+            options.add_argument("--disable-breakpad")
+            options.add_argument("--disable-client-side-phishing-detection")
+            options.add_argument("--disable-component-update")
+            options.add_argument("--disable-default-apps")
+            options.add_argument("--disable-domain-reliability")
+            options.add_argument("--disable-features=AudioServiceOutOfProcess")
+            options.add_argument("--disable-hang-monitor")
+            options.add_argument("--disable-ipc-flooding-protection")
+            options.add_argument("--disable-renderer-backgrounding")
+            options.add_argument("--disable-sync")
+            options.add_argument("--force-color-profile=srgb")
+            options.add_argument("--metrics-recording-only")
+            options.add_argument("--no-first-run")
+            options.add_argument("--safebrowsing-disable-auto-update")
+            options.add_argument("--password-store=basic")
+            options.add_argument("--use-mock-keychain")
+            options.add_argument("--disable-logging")
+            options.add_argument("--log-level=3")
+            options.add_argument("--silent")
+
+            # Add proxy if available
+            if self.proxies:
+                proxy = random.choice(self.proxies)  # Randomly select a proxy
+                options.add_argument(f"--proxy-server={proxy}")
+                logger.info(f"Using proxy: {proxy}")
+
             if self.headless_mode:
                 options.add_argument("--headless")  # Run in headless mode
+
             self.driver = uc.Chrome(options=options)
-            self.wait = WebDriverWait(self.driver, random.randint(5, 10))
-            load_cookies(self.driver, self.cookies_file)  # Load cookies from file
-            logger.info("Browser initialized with anti-detection measures")
+            self.wait = WebDriverWait(self.driver, random.randint(10, 15))
+            
+            # Apply stealth settings
+            stealth(
+                self.driver,
+                languages=["en-US", "en"],
+                vendor="Google Inc.",
+                platform="Win32",
+                webgl_vendor="Intel Inc.",
+                renderer="Intel Iris OpenGL Engine",
+                fix_hairline=True,
+            )
+
+            self.load_cookies()
+            logger.info("Browser initialized with anti-detection measures and proxy")
         except Exception as e:
             logger.error(f"Browser setup failed: {str(e)}")
             self.setup_fallback_browser()
 
     def setup_fallback_browser(self):
-        """Initializes a fallback browser. No webpage interaction."""
+        """Initializes a fallback browser with proxy support."""
         options = Options()
         options.add_argument("--window-size=1920,1080")
         options.add_argument("--disable-notifications")
@@ -127,22 +182,32 @@ class PokemonTCGBot:
         options.add_experimental_option("excludeSwitches", ["enable-automation"])
         options.add_experimental_option('useAutomationExtension', False)
         options.add_argument("--disable-blink-features=AutomationControlled")
-        options.add_argument("--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
+
+        # Add proxy if available
+        if self.proxies:
+            proxy = random.choice(self.proxies)  # Randomly select a proxy
+            options.add_argument(f"--proxy-server={proxy}")
+            logger.info(f"Using proxy: {proxy}")
+
         if self.headless_mode:
             options.add_argument("--headless")  # Run in headless mode
+
         self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
         self.wait = WebDriverWait(self.driver, random.randint(10, 15))
         load_cookies(self.driver, self.cookies_file)  # Load cookies from file
-        logger.info("Fallback browser initialized")
+        logger.info("Fallback browser initialized with proxy")
 
     def click_element_with_retry(self, selector=None, by=By.CSS_SELECTOR, retries=None, element=None):
-        """Clicks an element with retry logic. Webpage depends on the caller."""
+        """Clicks an element with retry logic."""
         if retries is None:
             retries = self.retry_limit
         for attempt in range(retries):
             try:
                 if element is None:
                     element = self.wait.until(EC.element_to_be_clickable((by, selector)))
+
+                simulate_mouse_movement()
+
                 element.click()
                 return True
             except (ElementNotInteractableException, StaleElementReferenceException) as e:
@@ -162,6 +227,7 @@ class PokemonTCGBot:
                 self.driver.get(self.category_url)  # Navigate to the category page
 
             human_like_delay(self.random_delay_min, self.random_delay_max)  # Use helper function
+            simulate_mouse_movement() # Simulate mouse movements after loading the page
 
             # Find all product titles on the page
             product_titles = self.driver.find_elements(By.CSS_SELECTOR, "h1.product-title--lz7HX")
@@ -212,6 +278,7 @@ class PokemonTCGBot:
             add_to_cart_btn = self.driver.find_element(By.CSS_SELECTOR, "button.add-to-cart-button--PZmQF")
             self.driver.execute_script("arguments[0].scrollIntoView({behavior: 'smooth', block: 'center'});", add_to_cart_btn)
             human_like_delay(self.random_delay_min, self.random_delay_max)  # Use helper function
+            simulate_mouse_movement()
 
             # Click the "Add to Cart" button
             if not self.click_element_with_retry("button.add-to-cart-button--PZmQF"):
@@ -263,7 +330,9 @@ class PokemonTCGBot:
             if not self.click_element_with_retry("a.header-cart--_2R2kd"):
                 logger.error("Failed to access the cart.")
                 return False
+            
             human_like_delay(self.random_delay_min, self.random_delay_max)  # Use helper function
+            simulate_mouse_movement()
 
             # Step 2: Use preferred payment method
             if self.config.get("payment_method") == "paypal":
@@ -377,9 +446,12 @@ class PokemonTCGBot:
             while not success:
                 check_count += 1
                 logger.info(f"Check #{check_count} for target product at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-                jitter = random.uniform(-10, 10)
-                actual_interval = max(10, self.check_interval + jitter)
 
+                # Sleep for 10 seconds to mimic human behavior
+                logger.info("Sleeping for 10 seconds to mimic human behavior...")
+                time.sleep(10)
+
+                # Proceed with the bot's logic
                 if self.check_for_product():
                     if self.add_to_cart() and self.validate_cart() and self.checkout():
                         logger.info("Purchase completed successfully!")
@@ -387,10 +459,10 @@ class PokemonTCGBot:
                         break
                     else:
                         logger.error("Failed to complete purchase")
-                        time.sleep(actual_interval * 2)
+                        time.sleep(self.check_interval * 2)
 
-                logger.info(f"Waiting approximately {actual_interval:.1f} seconds before next check")
-                time.sleep(actual_interval)
+                logger.info(f"Waiting approximately {self.check_interval} seconds before next check")
+                time.sleep(self.check_interval)
 
         except KeyboardInterrupt:
             logger.info("Bot stopped by user")
