@@ -1,0 +1,12 @@
+{
+    "target_keywords": ["Scarlet & Violet", "Destined Rivals"],
+    "check_interval": 30,
+    "exact_product_url": "",
+    "category_url": "https://www.pokemoncenter.com/en-ca/category/tcg-cards",
+    "max_price": 199.99,
+    "random_delay_min": 1,
+    "random_delay_max": 4,
+    "quantity": 4,
+    "retry_limit": 3,
+    "headless_mode": false
+}
