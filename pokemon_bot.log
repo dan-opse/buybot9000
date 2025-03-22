@@ -531,3 +531,33 @@ Stacktrace:
 2025-03-21 19:45:40,044 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10de46cf0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/551f4cf2dcea6f6674262113145febf6
 2025-03-21 19:45:40,045 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10de46f10>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/551f4cf2dcea6f6674262113145febf6
 2025-03-21 19:45:40,046 - INFO - Bot shutting down
+2025-03-21 20:18:38,113 - INFO - Loaded configuration: targeting ['Scarlet & Violet', 'Destined Rivals'], quantity: 4
+2025-03-21 20:18:39,555 - INFO - patching driver executable /Users/danielcheah/Library/Application Support/undetected_chromedriver/undetected_chromedriver
+2025-03-21 20:18:42,536 - ERROR - Browser setup failed: 'PokemonTCGBot' object has no attribute 'load_cookies'
+2025-03-21 20:18:42,537 - INFO - ====== WebDriver manager ======
+2025-03-21 20:18:42,615 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-21 20:18:42,806 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-21 20:18:42,925 - INFO - Driver [/Users/danielcheah/.wdm/drivers/chromedriver/mac64/134.0.6998.165/chromedriver-mac-arm64/chromedriver] found in cache
+2025-03-21 20:18:43,702 - INFO - Fallback browser initialized with proxy
+2025-03-21 20:18:43,703 - INFO - Starting Pokemon TCG buying bot
+2025-03-21 20:18:43,703 - INFO - Check #1 for target product at 2025-03-21 20:18:43
+2025-03-21 20:18:43,703 - INFO - Sleeping for 10 seconds to mimic human behavior...
+2025-03-21 20:18:56,374 - ERROR - Failed to check for product: name 'simulate_mouse_movement' is not defined
+2025-03-21 20:18:56,375 - INFO - Waiting approximately 30 seconds before next check
+2025-03-21 20:19:26,381 - INFO - Check #2 for target product at 2025-03-21 20:19:26
+2025-03-21 20:19:26,382 - INFO - Sleeping for 10 seconds to mimic human behavior...
+2025-03-21 20:19:38,295 - ERROR - Failed to check for product: name 'simulate_mouse_movement' is not defined
+2025-03-21 20:19:38,295 - INFO - Waiting approximately 30 seconds before next check
+2025-03-21 20:20:08,296 - INFO - Check #3 for target product at 2025-03-21 20:20:08
+2025-03-21 20:20:08,298 - INFO - Sleeping for 10 seconds to mimic human behavior...
+2025-03-21 20:20:22,374 - ERROR - Failed to check for product: name 'simulate_mouse_movement' is not defined
+2025-03-21 20:20:22,376 - INFO - Waiting approximately 30 seconds before next check
+2025-03-21 20:20:44,229 - INFO - Bot stopped by user
+2025-03-21 20:20:44,238 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10ceadbd0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/0bb39e97e55ad2017998296a99f84303/cookie
+2025-03-21 20:20:44,239 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10ceae0d0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/0bb39e97e55ad2017998296a99f84303/cookie
+2025-03-21 20:20:44,240 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10cdbefd0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/0bb39e97e55ad2017998296a99f84303/cookie
+2025-03-21 20:20:44,240 - ERROR - Failed to save cookies: HTTPConnectionPool(host='localhost', port=61845): Max retries exceeded with url: /session/0bb39e97e55ad2017998296a99f84303/cookie (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10ce7c3e0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-03-21 20:20:44,241 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10ce2af90>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/0bb39e97e55ad2017998296a99f84303
+2025-03-21 20:20:44,242 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10ce46cf0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/0bb39e97e55ad2017998296a99f84303
+2025-03-21 20:20:44,242 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10ce46f10>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/0bb39e97e55ad2017998296a99f84303
+2025-03-21 20:20:44,243 - INFO - Bot shutting down
