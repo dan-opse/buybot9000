@@ -10,8 +10,9 @@
   "quantity": 4,
   "retry_limit": 3,
   "headless_mode": false,
+  "proxies": [],
   "rotate_user_agents": true,
   "clear_cookies_interval": 5,
   "rotate_browser_profiles": true,
   "proxy_rotation_frequency": 3
-}s
+}

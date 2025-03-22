@@ -307,3 +307,33 @@ Stacktrace:
 2025-03-21 21:05:55,581 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10509f020>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/0f5dc616fa1aa66b93e8412b740b05f2
 2025-03-21 21:05:55,582 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10509f240>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/0f5dc616fa1aa66b93e8412b740b05f2
 2025-03-21 21:05:55,593 - INFO - Bot shutting down
+2025-03-21 21:38:25,884 - WARNING - No proxies configured - bot may be detected more easily
+2025-03-21 21:38:27,172 - INFO - patching driver executable /Users/danielcheah/Library/Application Support/undetected_chromedriver/undetected_chromedriver
+2025-03-21 21:38:32,916 - INFO - Browser initialized with enhanced anti-detection measures
+2025-03-21 21:38:32,917 - INFO - Starting Pokemon TCG buying bot
+2025-03-21 21:38:32,917 - INFO - Check #1 at 21:38:32
+2025-03-21 21:38:32,917 - INFO - Initial wait: 12.70 seconds...
+2025-03-21 21:39:26,824 - INFO - Target product not found on the category page.
+2025-03-21 21:39:26,824 - INFO - Next check in approximately 26.30 seconds
+2025-03-21 21:39:34,872 - INFO - Bot stopped by user
+2025-03-21 21:39:34,876 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(54, 'Connection reset by peer')': /session/53ee208a56828c81edb3c202ba517265/cookie
+2025-03-21 21:39:34,878 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11cec0cd0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/53ee208a56828c81edb3c202ba517265/cookie
+2025-03-21 21:39:34,879 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11cec0e10>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/53ee208a56828c81edb3c202ba517265/cookie
+2025-03-21 21:39:34,880 - ERROR - Failed to save cookies: HTTPConnectionPool(host='localhost', port=51574): Max retries exceeded with url: /session/53ee208a56828c81edb3c202ba517265/cookie (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11cdc0640>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-03-21 21:39:35,080 - INFO - Bot shutting down
+2025-03-21 21:40:28,012 - INFO - Loaded 1 proxies for rotation
+2025-03-21 21:40:28,012 - INFO - Using proxy: http://51.79.49.178:3128
+2025-03-21 21:40:29,156 - INFO - patching driver executable /Users/danielcheah/Library/Application Support/undetected_chromedriver/undetected_chromedriver
+2025-03-21 21:40:58,655 - INFO - Browser initialized with enhanced anti-detection measures
+2025-03-21 21:40:58,656 - INFO - Starting Pokemon TCG buying bot
+2025-03-21 21:40:58,656 - INFO - Attempt 1 (2025-03-21 21:40)
+2025-03-21 21:40:58,656 - INFO - Initial wait: 14.90 seconds...
+2025-03-21 21:42:29,107 - INFO - Bot stopped by user
+2025-03-21 21:42:29,111 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(54, 'Connection reset by peer')': /session/06a1fbfae86ce48fa7b5cdb990b644f0/cookie
+2025-03-21 21:42:29,112 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10984ccd0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/06a1fbfae86ce48fa7b5cdb990b644f0/cookie
+2025-03-21 21:42:29,113 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10984ce10>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/06a1fbfae86ce48fa7b5cdb990b644f0/cookie
+2025-03-21 21:42:29,114 - ERROR - Failed to save cookies: HTTPConnectionPool(host='localhost', port=51768): Max retries exceeded with url: /session/06a1fbfae86ce48fa7b5cdb990b644f0/cookie (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10970c640>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-03-21 21:42:29,140 - INFO - Bot shutting down
+2025-03-21 21:46:20,466 - INFO - Loaded 1 proxies for rotation
+2025-03-21 21:46:20,466 - INFO - Using proxy: http://51.79.49.178:3128
+2025-03-21 21:46:21,857 - INFO - patching driver executable /Users/danielcheah/Library/Application Support/undetected_chromedriver/undetected_chromedriver
