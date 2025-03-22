@@ -1,563 +1,309 @@
-2025-03-21 15:17:13,969 - INFO - Loaded configuration: targeting ['Scarlet & Violet', 'Destined Rivals'], quantity: 4
-2025-03-21 15:17:15,324 - INFO - patching driver executable /Users/danielcheah/Library/Application Support/undetected_chromedriver/undetected_chromedriver
-2025-03-21 15:17:21,553 - INFO - Browser initialized with anti-detection measures
-2025-03-21 15:17:21,556 - INFO - Starting Pokemon TCG buying bot
-2025-03-21 15:17:21,557 - INFO - Check #1 for target product at 2025-03-21 15:17:21
-2025-03-21 15:17:26,023 - INFO - Target product not found on the category page.
-2025-03-21 15:17:26,023 - INFO - Waiting approximately 36.3 seconds before next check
-2025-03-21 15:18:02,333 - INFO - Check #2 for target product at 2025-03-21 15:18:02
-2025-03-21 15:18:04,085 - INFO - Target product not found on the category page.
-2025-03-21 15:18:04,086 - INFO - Waiting approximately 36.0 seconds before next check
-2025-03-21 15:18:15,669 - INFO - Bot stopped by user
-2025-03-21 15:18:15,676 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(54, 'Connection reset by peer')': /session/6f8f72f5b8bac332976bbac56039f1ee/cookie
-2025-03-21 15:18:15,680 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x102c68b90>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/6f8f72f5b8bac332976bbac56039f1ee/cookie
-2025-03-21 15:18:15,682 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x102c68cd0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/6f8f72f5b8bac332976bbac56039f1ee/cookie
-2025-03-21 15:18:15,682 - ERROR - Failed to save cookies: HTTPConnectionPool(host='localhost', port=59487): Max retries exceeded with url: /session/6f8f72f5b8bac332976bbac56039f1ee/cookie (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x102bb2c40>: Failed to establish a new connection: [Errno 61] Connection refused'))
-2025-03-21 15:18:15,742 - INFO - Bot shutting down
-2025-03-21 15:26:40,679 - INFO - Loaded configuration: targeting ['Scarlet & Violet', 'Destined Rivals'], quantity: 4
-2025-03-21 15:26:42,070 - INFO - patching driver executable /Users/danielcheah/Library/Application Support/undetected_chromedriver/undetected_chromedriver
-2025-03-21 15:26:45,407 - INFO - Browser initialized with anti-detection measures
-2025-03-21 15:26:45,407 - INFO - Starting Pokemon TCG buying bot
-2025-03-21 15:26:45,407 - INFO - Check #1 for target product at 2025-03-21 15:26:45
-2025-03-21 15:26:48,056 - INFO - Target product not found on the category page.
-2025-03-21 15:26:48,056 - INFO - Waiting approximately 37.1 seconds before next check
-2025-03-21 15:27:10,430 - INFO - Bot stopped by user
-2025-03-21 15:27:10,441 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(54, 'Connection reset by peer')': /session/e419ee9494b0f8fd0af828f114a187c4/cookie
-2025-03-21 15:27:10,446 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x102254a50>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/e419ee9494b0f8fd0af828f114a187c4/cookie
-2025-03-21 15:27:10,447 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x102254b90>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/e419ee9494b0f8fd0af828f114a187c4/cookie
-2025-03-21 15:27:10,448 - ERROR - Failed to save cookies: HTTPConnectionPool(host='localhost', port=60214): Max retries exceeded with url: /session/e419ee9494b0f8fd0af828f114a187c4/cookie (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1021a6c40>: Failed to establish a new connection: [Errno 61] Connection refused'))
-2025-03-21 15:27:10,655 - INFO - Bot shutting down
-2025-03-21 15:42:21,638 - INFO - Loaded configuration: targeting ['Scarlet & Violet', 'Destined Rivals'], quantity: 4
-2025-03-21 15:42:22,882 - INFO - patching driver executable /Users/danielcheah/Library/Application Support/undetected_chromedriver/undetected_chromedriver
-2025-03-21 15:42:25,367 - INFO - Browser initialized with anti-detection measures
-2025-03-21 15:42:25,367 - INFO - Starting Pokemon TCG buying bot
-2025-03-21 15:42:25,367 - INFO - Check #1 for target product at 2025-03-21 15:42:25
-2025-03-21 15:42:27,625 - INFO - Target product not found on the category page.
-2025-03-21 15:42:27,625 - INFO - Waiting approximately 29.9 seconds before next check
-2025-03-21 15:42:57,519 - INFO - Check #2 for target product at 2025-03-21 15:42:57
-2025-03-21 15:43:00,925 - INFO - Target product not found on the category page.
-2025-03-21 15:43:00,925 - INFO - Waiting approximately 40.0 seconds before next check
-2025-03-21 15:43:29,519 - INFO - Bot stopped by user
-2025-03-21 15:43:29,523 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(54, 'Connection reset by peer')': /session/d431c40376b775e685363ee8e5fc81d9/cookie
-2025-03-21 15:43:29,526 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104ac0a50>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/d431c40376b775e685363ee8e5fc81d9/cookie
-2025-03-21 15:43:29,527 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104ac0b90>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/d431c40376b775e685363ee8e5fc81d9/cookie
-2025-03-21 15:43:29,528 - ERROR - Failed to save cookies: HTTPConnectionPool(host='localhost', port=61343): Max retries exceeded with url: /session/d431c40376b775e685363ee8e5fc81d9/cookie (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104a12c40>: Failed to establish a new connection: [Errno 61] Connection refused'))
-2025-03-21 15:43:29,732 - INFO - Bot shutting down
-2025-03-21 15:49:51,942 - INFO - Loaded configuration: targeting ['Scarlet & Violet', 'Destined Rivals'], quantity: 4
-2025-03-21 15:49:53,285 - INFO - patching driver executable /Users/danielcheah/Library/Application Support/undetected_chromedriver/undetected_chromedriver
-2025-03-21 15:49:55,764 - INFO - Browser initialized with anti-detection measures
-2025-03-21 15:49:55,764 - INFO - Starting Pokemon TCG buying bot
-2025-03-21 15:49:55,764 - INFO - Check #1 for target product at 2025-03-21 15:49:55
-2025-03-21 15:49:59,893 - INFO - Target product not found on the category page.
-2025-03-21 15:49:59,896 - INFO - Waiting approximately 22.6 seconds before next check
-2025-03-21 15:50:14,337 - INFO - Bot stopped by user
-2025-03-21 15:50:14,340 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(54, 'Connection reset by peer')': /session/8a01f467a28e3d9c922aa0e003019b62/cookie
-2025-03-21 15:50:14,345 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10306ca50>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/8a01f467a28e3d9c922aa0e003019b62/cookie
-2025-03-21 15:50:14,348 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10306cb90>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/8a01f467a28e3d9c922aa0e003019b62/cookie
-2025-03-21 15:50:14,349 - ERROR - Failed to save cookies: HTTPConnectionPool(host='localhost', port=61951): Max retries exceeded with url: /session/8a01f467a28e3d9c922aa0e003019b62/cookie (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x102fbec40>: Failed to establish a new connection: [Errno 61] Connection refused'))
-2025-03-21 15:50:14,409 - INFO - Bot shutting down
-2025-03-21 16:12:58,997 - INFO - Loaded configuration: targeting ['Scarlet & Violet', 'Destined Rivals'], quantity: 4
-2025-03-21 16:13:00,257 - INFO - patching driver executable /Users/danielcheah/Library/Application Support/undetected_chromedriver/undetected_chromedriver
-2025-03-21 16:13:02,751 - ERROR - Browser setup failed: 'PokemonTCGBot' object has no attribute 'load_cookies'
-2025-03-21 16:13:02,751 - INFO - ====== WebDriver manager ======
-2025-03-21 16:13:02,824 - INFO - Get LATEST chromedriver version for google-chrome
-2025-03-21 16:13:02,954 - INFO - Get LATEST chromedriver version for google-chrome
-2025-03-21 16:13:03,080 - INFO - There is no [mac64] chromedriver "134.0.6998.165" for browser google-chrome "134.0.6998" in cache
-2025-03-21 16:13:03,081 - INFO - Get LATEST chromedriver version for google-chrome
-2025-03-21 16:13:03,388 - INFO - WebDriver version 134.0.6998.165 selected
-2025-03-21 16:13:03,390 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/134.0.6998.165/mac-arm64/chromedriver-mac-arm64.zip
-2025-03-21 16:13:03,390 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/134.0.6998.165/mac-arm64/chromedriver-mac-arm64.zip
-2025-03-21 16:13:03,494 - INFO - Driver downloading response is 200
-2025-03-21 16:13:04,255 - INFO - Get LATEST chromedriver version for google-chrome
-2025-03-21 16:13:04,461 - INFO - Driver has been saved in cache [/Users/danielcheah/.wdm/drivers/chromedriver/mac64/134.0.6998.165]
-2025-03-21 16:13:05,416 - INFO - Fallback browser initialized with proxy
-2025-03-21 16:13:05,416 - INFO - Starting Pokemon TCG buying bot
-2025-03-21 16:13:05,416 - INFO - Check #1 for target product at 2025-03-21 16:13:05
-2025-03-21 16:13:05,416 - INFO - Sleeping for 10 seconds to mimic human behavior...
-2025-03-21 16:13:17,625 - ERROR - Failed to check for product: name 'simulate_mouse_movement' is not defined
-2025-03-21 16:13:17,626 - INFO - Waiting approximately 30 seconds before next check
-2025-03-21 16:13:47,631 - INFO - Check #2 for target product at 2025-03-21 16:13:47
-2025-03-21 16:13:47,632 - INFO - Sleeping for 10 seconds to mimic human behavior...
-2025-03-21 16:13:59,509 - ERROR - Failed to check for product: name 'simulate_mouse_movement' is not defined
-2025-03-21 16:13:59,509 - INFO - Waiting approximately 30 seconds before next check
-2025-03-21 16:14:10,318 - INFO - Bot stopped by user
-2025-03-21 16:14:10,319 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(54, 'Connection reset by peer')': /session/1382a6df8d9fd7fb16c354bb7e6b2a89/cookie
-2025-03-21 16:14:10,320 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10ba6dbd0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/1382a6df8d9fd7fb16c354bb7e6b2a89/cookie
-2025-03-21 16:14:10,321 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10b977230>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/1382a6df8d9fd7fb16c354bb7e6b2a89/cookie
-2025-03-21 16:14:10,323 - ERROR - Failed to save cookies: HTTPConnectionPool(host='localhost', port=63709): Max retries exceeded with url: /session/1382a6df8d9fd7fb16c354bb7e6b2a89/cookie (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10ba3c3e0>: Failed to establish a new connection: [Errno 61] Connection refused'))
-2025-03-21 16:14:10,329 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10b9e6f90>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/1382a6df8d9fd7fb16c354bb7e6b2a89
-2025-03-21 16:14:10,330 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10ba06580>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/1382a6df8d9fd7fb16c354bb7e6b2a89
-2025-03-21 16:14:10,330 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10ba067a0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/1382a6df8d9fd7fb16c354bb7e6b2a89
-2025-03-21 16:14:10,331 - INFO - Bot shutting down
-2025-03-21 16:23:47,636 - INFO - Loaded configuration: targeting ['Scarlet & Violet', 'Destined Rivals'], quantity: 4
-2025-03-21 16:23:48,961 - INFO - patching driver executable /Users/danielcheah/Library/Application Support/undetected_chromedriver/undetected_chromedriver
-2025-03-21 16:23:51,465 - ERROR - Browser setup failed: 'PokemonTCGBot' object has no attribute 'load_cookies'
-2025-03-21 16:23:51,465 - INFO - ====== WebDriver manager ======
-2025-03-21 16:23:51,542 - INFO - Get LATEST chromedriver version for google-chrome
-2025-03-21 16:23:51,670 - INFO - Get LATEST chromedriver version for google-chrome
-2025-03-21 16:23:51,802 - INFO - Driver [/Users/danielcheah/.wdm/drivers/chromedriver/mac64/134.0.6998.165/chromedriver-mac-arm64/chromedriver] found in cache
-2025-03-21 16:23:52,554 - INFO - Fallback browser initialized with proxy
-2025-03-21 16:23:52,554 - INFO - Starting Pokemon TCG buying bot
-2025-03-21 16:23:52,554 - INFO - Check #1 for target product at 2025-03-21 16:23:52
-2025-03-21 16:23:52,555 - INFO - Sleeping for 10 seconds to mimic human behavior...
-2025-03-21 16:24:06,818 - ERROR - Failed to check for product: name 'simulate_mouse_movement' is not defined
-2025-03-21 16:24:06,819 - INFO - Waiting approximately 30 seconds before next check
-2025-03-21 16:24:36,825 - INFO - Check #2 for target product at 2025-03-21 16:24:36
-2025-03-21 16:24:36,826 - INFO - Sleeping for 10 seconds to mimic human behavior...
-2025-03-21 16:24:48,582 - ERROR - Failed to check for product: name 'simulate_mouse_movement' is not defined
-2025-03-21 16:24:48,583 - INFO - Waiting approximately 30 seconds before next check
-2025-03-21 16:25:18,588 - INFO - Check #3 for target product at 2025-03-21 16:25:18
-2025-03-21 16:25:18,589 - INFO - Sleeping for 10 seconds to mimic human behavior...
-2025-03-21 16:25:30,956 - ERROR - Failed to check for product: name 'simulate_mouse_movement' is not defined
-2025-03-21 16:25:30,956 - INFO - Waiting approximately 30 seconds before next check
-2025-03-21 16:25:44,024 - INFO - Bot stopped by user
-2025-03-21 16:25:44,042 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /session/2359d2e3533498dcded7afec403e8652/cookie
-2025-03-21 16:25:44,046 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10984e490>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/2359d2e3533498dcded7afec403e8652/cookie
-2025-03-21 16:25:44,048 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10981c3e0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/2359d2e3533498dcded7afec403e8652/cookie
-2025-03-21 16:25:44,048 - ERROR - Failed to save cookies: HTTPConnectionPool(host='localhost', port=64543): Max retries exceeded with url: /session/2359d2e3533498dcded7afec403e8652/cookie (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10981c2b0>: Failed to establish a new connection: [Errno 61] Connection refused'))
-2025-03-21 16:25:44,050 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1097caf90>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/2359d2e3533498dcded7afec403e8652
-2025-03-21 16:25:44,050 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1097e6e00>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/2359d2e3533498dcded7afec403e8652
-2025-03-21 16:25:44,051 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1097e7020>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/2359d2e3533498dcded7afec403e8652
-2025-03-21 16:25:44,052 - INFO - Bot shutting down
-2025-03-21 16:37:35,438 - INFO - Loaded configuration: targeting ['Scarlet & Violet', 'Destined Rivals'], quantity: 4
-2025-03-21 16:37:36,877 - INFO - patching driver executable /Users/danielcheah/Library/Application Support/undetected_chromedriver/undetected_chromedriver
-2025-03-21 16:37:39,362 - ERROR - Browser setup failed: 'PokemonTCGBot' object has no attribute 'load_cookies'
-2025-03-21 16:37:39,362 - INFO - ====== WebDriver manager ======
-2025-03-21 16:37:39,439 - INFO - Get LATEST chromedriver version for google-chrome
-2025-03-21 16:37:39,604 - INFO - Get LATEST chromedriver version for google-chrome
-2025-03-21 16:37:39,727 - INFO - Driver [/Users/danielcheah/.wdm/drivers/chromedriver/mac64/134.0.6998.165/chromedriver-mac-arm64/chromedriver] found in cache
-2025-03-21 16:37:40,478 - INFO - Fallback browser initialized with proxy
-2025-03-21 16:37:40,478 - INFO - Starting Pokemon TCG buying bot
-2025-03-21 16:37:40,478 - INFO - Check #1 for target product at 2025-03-21 16:37:40
-2025-03-21 16:37:40,478 - INFO - Sleeping for 10 seconds to mimic human behavior...
-2025-03-21 16:37:52,261 - ERROR - Failed to check for product: name 'simulate_mouse_movement' is not defined
-2025-03-21 16:37:52,261 - INFO - Waiting approximately 30 seconds before next check
-2025-03-21 16:38:22,266 - INFO - Check #2 for target product at 2025-03-21 16:38:22
-2025-03-21 16:38:22,266 - INFO - Sleeping for 10 seconds to mimic human behavior...
-2025-03-21 16:38:36,671 - ERROR - Failed to check for product: name 'simulate_mouse_movement' is not defined
-2025-03-21 16:38:36,672 - INFO - Waiting approximately 30 seconds before next check
-2025-03-21 16:39:06,674 - INFO - Check #3 for target product at 2025-03-21 16:39:06
-2025-03-21 16:39:06,675 - INFO - Sleeping for 10 seconds to mimic human behavior...
-2025-03-21 16:39:19,650 - ERROR - Failed to check for product: name 'simulate_mouse_movement' is not defined
-2025-03-21 16:39:19,650 - INFO - Waiting approximately 30 seconds before next check
-2025-03-21 16:39:49,651 - INFO - Check #4 for target product at 2025-03-21 16:39:49
-2025-03-21 16:39:49,652 - INFO - Sleeping for 10 seconds to mimic human behavior...
-2025-03-21 16:40:03,987 - ERROR - Failed to check for product: name 'simulate_mouse_movement' is not defined
-2025-03-21 16:40:03,987 - INFO - Waiting approximately 30 seconds before next check
-2025-03-21 16:40:10,059 - INFO - Bot stopped by user
-2025-03-21 16:40:10,071 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10926dbd0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c493242795dd1d2fc194c3a434aee66a/cookie
-2025-03-21 16:40:10,072 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10926e0d0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c493242795dd1d2fc194c3a434aee66a/cookie
-2025-03-21 16:40:10,074 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x109182fd0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c493242795dd1d2fc194c3a434aee66a/cookie
-2025-03-21 16:40:10,075 - ERROR - Failed to save cookies: HTTPConnectionPool(host='localhost', port=49256): Max retries exceeded with url: /session/c493242795dd1d2fc194c3a434aee66a/cookie (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10923c3e0>: Failed to establish a new connection: [Errno 61] Connection refused'))
-2025-03-21 16:40:10,077 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1091eaf90>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c493242795dd1d2fc194c3a434aee66a
-2025-03-21 16:40:10,083 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x109206cf0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c493242795dd1d2fc194c3a434aee66a
-2025-03-21 16:40:10,096 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x109206f10>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c493242795dd1d2fc194c3a434aee66a
-2025-03-21 16:40:10,108 - INFO - Bot shutting down
-2025-03-21 16:46:03,997 - INFO - Loaded configuration: targeting ['Scarlet & Violet', 'Destined Rivals'], quantity: 4
-2025-03-21 16:46:05,293 - INFO - patching driver executable /Users/danielcheah/Library/Application Support/undetected_chromedriver/undetected_chromedriver
-2025-03-21 16:46:07,787 - ERROR - Browser setup failed: 'PokemonTCGBot' object has no attribute 'load_cookies'
-2025-03-21 16:46:07,787 - INFO - ====== WebDriver manager ======
-2025-03-21 16:46:07,863 - INFO - Get LATEST chromedriver version for google-chrome
-2025-03-21 16:46:08,004 - INFO - Get LATEST chromedriver version for google-chrome
-2025-03-21 16:46:08,136 - INFO - Driver [/Users/danielcheah/.wdm/drivers/chromedriver/mac64/134.0.6998.165/chromedriver-mac-arm64/chromedriver] found in cache
-2025-03-21 16:46:08,875 - INFO - Fallback browser initialized with proxy
-2025-03-21 16:46:08,875 - INFO - Starting Pokemon TCG buying bot
-2025-03-21 16:46:08,875 - INFO - Check #1 for target product at 2025-03-21 16:46:08
-2025-03-21 16:46:08,875 - INFO - Sleeping for 10 seconds to mimic human behavior...
-2025-03-21 16:46:21,244 - ERROR - Failed to check for product: name 'simulate_mouse_movement' is not defined
-2025-03-21 16:46:21,246 - INFO - Waiting approximately 30 seconds before next check
-2025-03-21 16:46:51,251 - INFO - Check #2 for target product at 2025-03-21 16:46:51
-2025-03-21 16:46:51,252 - INFO - Sleeping for 10 seconds to mimic human behavior...
-2025-03-21 16:47:05,133 - ERROR - Failed to check for product: name 'simulate_mouse_movement' is not defined
-2025-03-21 16:47:05,134 - INFO - Waiting approximately 30 seconds before next check
-2025-03-21 16:47:35,135 - INFO - Check #3 for target product at 2025-03-21 16:47:35
-2025-03-21 16:47:35,135 - INFO - Sleeping for 10 seconds to mimic human behavior...
-2025-03-21 16:47:48,642 - ERROR - Failed to check for product: name 'simulate_mouse_movement' is not defined
-2025-03-21 16:47:48,643 - INFO - Waiting approximately 30 seconds before next check
-2025-03-21 16:48:18,644 - INFO - Check #4 for target product at 2025-03-21 16:48:18
-2025-03-21 16:48:18,646 - INFO - Sleeping for 10 seconds to mimic human behavior...
-2025-03-21 16:48:32,828 - ERROR - Failed to check for product: name 'simulate_mouse_movement' is not defined
-2025-03-21 16:48:32,830 - INFO - Waiting approximately 30 seconds before next check
-2025-03-21 16:49:02,834 - INFO - Check #5 for target product at 2025-03-21 16:49:02
-2025-03-21 16:49:02,834 - INFO - Sleeping for 10 seconds to mimic human behavior...
-2025-03-21 16:49:15,143 - ERROR - Failed to check for product: name 'simulate_mouse_movement' is not defined
-2025-03-21 16:49:15,144 - INFO - Waiting approximately 30 seconds before next check
-2025-03-21 16:49:45,144 - INFO - Check #6 for target product at 2025-03-21 16:49:45
-2025-03-21 16:49:45,145 - INFO - Sleeping for 10 seconds to mimic human behavior...
-2025-03-21 16:49:58,228 - ERROR - Failed to check for product: name 'simulate_mouse_movement' is not defined
-2025-03-21 16:49:58,228 - INFO - Waiting approximately 30 seconds before next check
-2025-03-21 16:50:28,233 - INFO - Check #7 for target product at 2025-03-21 16:50:28
-2025-03-21 16:50:28,233 - INFO - Sleeping for 10 seconds to mimic human behavior...
-2025-03-21 16:50:40,162 - ERROR - Failed to check for product: name 'simulate_mouse_movement' is not defined
-2025-03-21 16:50:40,164 - INFO - Waiting approximately 30 seconds before next check
-2025-03-21 16:51:10,168 - INFO - Check #8 for target product at 2025-03-21 16:51:10
-2025-03-21 16:51:10,168 - INFO - Sleeping for 10 seconds to mimic human behavior...
-2025-03-21 16:51:23,178 - ERROR - Failed to check for product: name 'simulate_mouse_movement' is not defined
-2025-03-21 16:51:23,178 - INFO - Waiting approximately 30 seconds before next check
-2025-03-21 16:51:49,036 - INFO - Bot stopped by user
-2025-03-21 16:51:49,058 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(54, 'Connection reset by peer')': /session/debd8073cd7a57ae35a940b1ca20bf49/cookie
-2025-03-21 16:51:49,060 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10d12a0d0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/debd8073cd7a57ae35a940b1ca20bf49/cookie
-2025-03-21 16:51:49,061 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10d03afd0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/debd8073cd7a57ae35a940b1ca20bf49/cookie
-2025-03-21 16:51:49,062 - ERROR - Failed to save cookies: HTTPConnectionPool(host='localhost', port=50360): Max retries exceeded with url: /session/debd8073cd7a57ae35a940b1ca20bf49/cookie (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10d0f43e0>: Failed to establish a new connection: [Errno 61] Connection refused'))
-2025-03-21 16:51:49,063 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10d0a6f90>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/debd8073cd7a57ae35a940b1ca20bf49
-2025-03-21 16:51:49,064 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10d0c2cf0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/debd8073cd7a57ae35a940b1ca20bf49
-2025-03-21 16:51:49,065 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10d0c2f10>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/debd8073cd7a57ae35a940b1ca20bf49
-2025-03-21 16:51:49,067 - INFO - Bot shutting down
-2025-03-21 16:59:30,644 - INFO - Loaded configuration: targeting ['Scarlet & Violet', 'Destined Rivals'], quantity: 4
-2025-03-21 16:59:32,041 - INFO - patching driver executable /Users/danielcheah/Library/Application Support/undetected_chromedriver/undetected_chromedriver
-2025-03-21 16:59:35,022 - ERROR - Browser setup failed: 'PokemonTCGBot' object has no attribute 'load_cookies'
-2025-03-21 16:59:35,022 - INFO - ====== WebDriver manager ======
-2025-03-21 16:59:35,106 - INFO - Get LATEST chromedriver version for google-chrome
-2025-03-21 16:59:35,237 - INFO - Get LATEST chromedriver version for google-chrome
-2025-03-21 16:59:35,375 - INFO - Driver [/Users/danielcheah/.wdm/drivers/chromedriver/mac64/134.0.6998.165/chromedriver-mac-arm64/chromedriver] found in cache
-2025-03-21 16:59:36,170 - INFO - Fallback browser initialized with proxy
-2025-03-21 16:59:36,170 - INFO - Starting Pokemon TCG buying bot
-2025-03-21 16:59:36,170 - INFO - Check #1 for target product at 2025-03-21 16:59:36
-2025-03-21 16:59:36,170 - INFO - Sleeping for 10 seconds to mimic human behavior...
-2025-03-21 16:59:49,138 - ERROR - Failed to check for product: name 'simulate_mouse_movement' is not defined
-2025-03-21 16:59:49,138 - INFO - Waiting approximately 30 seconds before next check
-2025-03-21 17:00:19,143 - INFO - Check #2 for target product at 2025-03-21 17:00:19
-2025-03-21 17:00:19,144 - INFO - Sleeping for 10 seconds to mimic human behavior...
-2025-03-21 17:00:30,832 - ERROR - Failed to check for product: name 'simulate_mouse_movement' is not defined
-2025-03-21 17:00:30,832 - INFO - Waiting approximately 30 seconds before next check
-2025-03-21 17:01:00,837 - INFO - Check #3 for target product at 2025-03-21 17:01:00
-2025-03-21 17:01:00,838 - INFO - Sleeping for 10 seconds to mimic human behavior...
-2025-03-21 17:01:14,553 - ERROR - Failed to check for product: name 'simulate_mouse_movement' is not defined
-2025-03-21 17:01:14,553 - INFO - Waiting approximately 30 seconds before next check
-2025-03-21 17:01:44,558 - INFO - Check #4 for target product at 2025-03-21 17:01:44
-2025-03-21 17:01:44,558 - INFO - Sleeping for 10 seconds to mimic human behavior...
-2025-03-21 17:01:56,859 - ERROR - Failed to check for product: name 'simulate_mouse_movement' is not defined
-2025-03-21 17:01:56,859 - INFO - Waiting approximately 30 seconds before next check
-2025-03-21 17:02:26,864 - INFO - Check #5 for target product at 2025-03-21 17:02:26
-2025-03-21 17:02:26,865 - INFO - Sleeping for 10 seconds to mimic human behavior...
-2025-03-21 17:02:39,160 - ERROR - Failed to check for product: name 'simulate_mouse_movement' is not defined
-2025-03-21 17:02:39,161 - INFO - Waiting approximately 30 seconds before next check
-2025-03-21 17:03:09,164 - INFO - Check #6 for target product at 2025-03-21 17:03:09
-2025-03-21 17:03:09,165 - INFO - Sleeping for 10 seconds to mimic human behavior...
-2025-03-21 17:03:22,631 - ERROR - Failed to check for product: name 'simulate_mouse_movement' is not defined
-2025-03-21 17:03:22,631 - INFO - Waiting approximately 30 seconds before next check
-2025-03-21 17:03:52,636 - INFO - Check #7 for target product at 2025-03-21 17:03:52
-2025-03-21 17:03:52,637 - INFO - Sleeping for 10 seconds to mimic human behavior...
-2025-03-21 17:04:06,524 - ERROR - Failed to check for product: name 'simulate_mouse_movement' is not defined
-2025-03-21 17:04:06,524 - INFO - Waiting approximately 30 seconds before next check
-2025-03-21 17:04:36,529 - INFO - Check #8 for target product at 2025-03-21 17:04:36
-2025-03-21 17:04:36,530 - INFO - Sleeping for 10 seconds to mimic human behavior...
-2025-03-21 17:04:40,580 - INFO - Bot stopped by user
-2025-03-21 17:04:40,590 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(54, 'Connection reset by peer')': /session/6c7286922704510e2375e1bc96d617b5/cookie
-2025-03-21 17:04:40,592 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10d43a0d0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/6c7286922704510e2375e1bc96d617b5/cookie
-2025-03-21 17:04:40,593 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10d34efd0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/6c7286922704510e2375e1bc96d617b5/cookie
-2025-03-21 17:04:40,593 - ERROR - Failed to save cookies: HTTPConnectionPool(host='localhost', port=51394): Max retries exceeded with url: /session/6c7286922704510e2375e1bc96d617b5/cookie (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10d4083e0>: Failed to establish a new connection: [Errno 61] Connection refused'))
-2025-03-21 17:04:40,594 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10d3b6f90>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/6c7286922704510e2375e1bc96d617b5
-2025-03-21 17:04:40,594 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10d3d2cf0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/6c7286922704510e2375e1bc96d617b5
-2025-03-21 17:04:40,595 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10d3d2f10>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/6c7286922704510e2375e1bc96d617b5
-2025-03-21 17:04:40,596 - INFO - Bot shutting down
-2025-03-21 17:12:52,798 - INFO - Loaded configuration: targeting ['Scarlet & Violet', 'Destined Rivals'], quantity: 4
-2025-03-21 17:12:54,100 - INFO - patching driver executable /Users/danielcheah/Library/Application Support/undetected_chromedriver/undetected_chromedriver
-2025-03-21 17:12:59,874 - ERROR - Browser setup failed: 'PokemonTCGBot' object has no attribute 'load_cookies'
-2025-03-21 17:12:59,875 - INFO - ====== WebDriver manager ======
-2025-03-21 17:12:59,970 - INFO - Get LATEST chromedriver version for google-chrome
-2025-03-21 17:13:00,183 - INFO - Get LATEST chromedriver version for google-chrome
-2025-03-21 17:13:00,304 - INFO - Driver [/Users/danielcheah/.wdm/drivers/chromedriver/mac64/134.0.6998.165/chromedriver-mac-arm64/chromedriver] found in cache
-2025-03-21 17:13:01,119 - INFO - Fallback browser initialized with proxy
-2025-03-21 17:13:01,119 - INFO - Starting Pokemon TCG buying bot
-2025-03-21 17:13:01,119 - INFO - Check #1 for target product at 2025-03-21 17:13:01
-2025-03-21 17:13:01,119 - INFO - Sleeping for 10 seconds to mimic human behavior...
-2025-03-21 17:13:13,861 - ERROR - Failed to check for product: name 'simulate_mouse_movement' is not defined
-2025-03-21 17:13:13,862 - INFO - Waiting approximately 30 seconds before next check
-2025-03-21 17:13:43,868 - INFO - Check #2 for target product at 2025-03-21 17:13:43
-2025-03-21 17:13:43,870 - INFO - Sleeping for 10 seconds to mimic human behavior...
-2025-03-21 17:13:55,939 - ERROR - Failed to check for product: name 'simulate_mouse_movement' is not defined
-2025-03-21 17:13:55,940 - INFO - Waiting approximately 30 seconds before next check
-2025-03-21 17:14:25,941 - INFO - Check #3 for target product at 2025-03-21 17:14:25
-2025-03-21 17:14:25,942 - INFO - Sleeping for 10 seconds to mimic human behavior...
-2025-03-21 17:14:38,096 - ERROR - Failed to check for product: name 'simulate_mouse_movement' is not defined
-2025-03-21 17:14:38,096 - INFO - Waiting approximately 30 seconds before next check
-2025-03-21 17:15:08,147 - INFO - Check #4 for target product at 2025-03-21 17:15:08
-2025-03-21 17:15:08,148 - INFO - Sleeping for 10 seconds to mimic human behavior...
-2025-03-21 17:15:20,729 - ERROR - Failed to check for product: name 'simulate_mouse_movement' is not defined
-2025-03-21 17:15:20,730 - INFO - Waiting approximately 30 seconds before next check
-2025-03-21 17:15:50,535 - INFO - Bot stopped by user
-2025-03-21 17:15:50,550 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10d0b1bd0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/021c30c792645e8f146b26e20c425055/cookie
-2025-03-21 17:15:50,558 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10d0b20d0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/021c30c792645e8f146b26e20c425055/cookie
-2025-03-21 17:15:50,559 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10cfc6fd0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/021c30c792645e8f146b26e20c425055/cookie
-2025-03-21 17:15:50,560 - ERROR - Failed to save cookies: HTTPConnectionPool(host='localhost', port=52451): Max retries exceeded with url: /session/021c30c792645e8f146b26e20c425055/cookie (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10d0803e0>: Failed to establish a new connection: [Errno 61] Connection refused'))
-2025-03-21 17:15:50,561 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10d02ef90>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/021c30c792645e8f146b26e20c425055
-2025-03-21 17:15:50,562 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10d04acf0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/021c30c792645e8f146b26e20c425055
-2025-03-21 17:15:50,563 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10d04af10>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/021c30c792645e8f146b26e20c425055
-2025-03-21 17:15:50,564 - INFO - Bot shutting down
-2025-03-21 17:16:07,757 - INFO - Loaded configuration: targeting ['Scarlet & Violet', 'Destined Rivals'], quantity: 4
-2025-03-21 17:16:08,900 - INFO - patching driver executable /Users/danielcheah/Library/Application Support/undetected_chromedriver/undetected_chromedriver
-2025-03-21 17:16:11,399 - ERROR - Browser setup failed: 'PokemonTCGBot' object has no attribute 'load_cookies'
-2025-03-21 17:16:11,399 - INFO - ====== WebDriver manager ======
-2025-03-21 17:16:11,498 - INFO - Get LATEST chromedriver version for google-chrome
-2025-03-21 17:16:11,619 - INFO - Get LATEST chromedriver version for google-chrome
-2025-03-21 17:16:11,748 - INFO - Driver [/Users/danielcheah/.wdm/drivers/chromedriver/mac64/134.0.6998.165/chromedriver-mac-arm64/chromedriver] found in cache
-2025-03-21 17:16:12,532 - INFO - Fallback browser initialized with proxy
-2025-03-21 17:16:12,533 - INFO - Starting Pokemon TCG buying bot
-2025-03-21 17:16:12,533 - INFO - Check #1 for target product at 2025-03-21 17:16:12
-2025-03-21 17:16:12,533 - INFO - Sleeping for 10 seconds to mimic human behavior...
-2025-03-21 17:16:25,764 - ERROR - Failed to check for product: name 'simulate_mouse_movement' is not defined
-2025-03-21 17:16:25,764 - INFO - Waiting approximately 30 seconds before next check
-2025-03-21 17:16:55,767 - INFO - Check #2 for target product at 2025-03-21 17:16:55
-2025-03-21 17:16:55,768 - INFO - Sleeping for 10 seconds to mimic human behavior...
-2025-03-21 17:17:07,490 - ERROR - Failed to check for product: name 'simulate_mouse_movement' is not defined
-2025-03-21 17:17:07,490 - INFO - Waiting approximately 30 seconds before next check
-2025-03-21 17:17:25,102 - INFO - Bot stopped by user
-2025-03-21 17:17:25,113 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(54, 'Connection reset by peer')': /session/d927959dc2947ab3a93f1288e5494e98/cookie
-2025-03-21 17:17:25,114 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11b4ae0d0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/d927959dc2947ab3a93f1288e5494e98/cookie
-2025-03-21 17:17:25,119 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11b2c2fd0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/d927959dc2947ab3a93f1288e5494e98/cookie
-2025-03-21 17:17:25,134 - ERROR - Failed to save cookies: HTTPConnectionPool(host='localhost', port=52825): Max retries exceeded with url: /session/d927959dc2947ab3a93f1288e5494e98/cookie (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11b47c3e0>: Failed to establish a new connection: [Errno 61] Connection refused'))
-2025-03-21 17:17:25,135 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11b42af90>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/d927959dc2947ab3a93f1288e5494e98
-2025-03-21 17:17:25,136 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11b446cf0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/d927959dc2947ab3a93f1288e5494e98
-2025-03-21 17:17:25,137 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11b446f10>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/d927959dc2947ab3a93f1288e5494e98
-2025-03-21 17:17:25,139 - INFO - Bot shutting down
-2025-03-21 17:23:08,211 - INFO - Loaded configuration: targeting ['Scarlet & Violet', 'Destined Rivals'], quantity: 4
-2025-03-21 17:23:09,503 - INFO - patching driver executable /Users/danielcheah/Library/Application Support/undetected_chromedriver/undetected_chromedriver
-2025-03-21 17:23:12,018 - ERROR - Browser setup failed: 'PokemonTCGBot' object has no attribute 'load_cookies'
-2025-03-21 17:23:12,018 - INFO - ====== WebDriver manager ======
-2025-03-21 17:23:12,095 - INFO - Get LATEST chromedriver version for google-chrome
-2025-03-21 17:23:12,218 - INFO - Get LATEST chromedriver version for google-chrome
-2025-03-21 17:23:12,343 - INFO - Driver [/Users/danielcheah/.wdm/drivers/chromedriver/mac64/134.0.6998.165/chromedriver-mac-arm64/chromedriver] found in cache
-2025-03-21 17:23:13,109 - INFO - Fallback browser initialized with proxy
-2025-03-21 17:23:13,109 - INFO - Starting Pokemon TCG buying bot
-2025-03-21 17:23:13,109 - INFO - Check #1 for target product at 2025-03-21 17:23:13
-2025-03-21 17:23:13,109 - INFO - Sleeping for 10 seconds to mimic human behavior...
-2025-03-21 17:23:26,351 - ERROR - Failed to check for product: name 'simulate_mouse_movement' is not defined
-2025-03-21 17:23:26,352 - INFO - Waiting approximately 30 seconds before next check
-2025-03-21 17:23:56,357 - INFO - Check #2 for target product at 2025-03-21 17:23:56
-2025-03-21 17:23:56,358 - INFO - Sleeping for 10 seconds to mimic human behavior...
-2025-03-21 17:24:01,469 - INFO - Bot stopped by user
-2025-03-21 17:24:01,474 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10902dbd0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/721f3ba8ee3bc7548a53d076eba66a1d/cookie
-2025-03-21 17:24:01,477 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10902e0d0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/721f3ba8ee3bc7548a53d076eba66a1d/cookie
-2025-03-21 17:24:01,487 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x108f42fd0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/721f3ba8ee3bc7548a53d076eba66a1d/cookie
-2025-03-21 17:24:01,488 - ERROR - Failed to save cookies: HTTPConnectionPool(host='localhost', port=53448): Max retries exceeded with url: /session/721f3ba8ee3bc7548a53d076eba66a1d/cookie (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x108ffc3e0>: Failed to establish a new connection: [Errno 61] Connection refused'))
-2025-03-21 17:24:01,490 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x108faaf90>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/721f3ba8ee3bc7548a53d076eba66a1d
-2025-03-21 17:24:01,490 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x108fc6cf0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/721f3ba8ee3bc7548a53d076eba66a1d
-2025-03-21 17:24:01,491 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x108fc6f10>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/721f3ba8ee3bc7548a53d076eba66a1d
-2025-03-21 17:24:01,493 - INFO - Bot shutting down
-2025-03-21 17:25:06,130 - INFO - Loaded configuration: targeting ['Scarlet & Violet', 'Destined Rivals'], quantity: 4
-2025-03-21 17:25:07,295 - INFO - patching driver executable /Users/danielcheah/Library/Application Support/undetected_chromedriver/undetected_chromedriver
-2025-03-21 17:25:09,791 - ERROR - Browser setup failed: 'PokemonTCGBot' object has no attribute 'load_cookies'
-2025-03-21 17:25:09,791 - INFO - ====== WebDriver manager ======
-2025-03-21 17:25:09,876 - INFO - Get LATEST chromedriver version for google-chrome
-2025-03-21 17:25:10,003 - INFO - Get LATEST chromedriver version for google-chrome
-2025-03-21 17:25:10,136 - INFO - Driver [/Users/danielcheah/.wdm/drivers/chromedriver/mac64/134.0.6998.165/chromedriver-mac-arm64/chromedriver] found in cache
-2025-03-21 17:25:10,930 - INFO - Fallback browser initialized with proxy
-2025-03-21 17:25:10,931 - INFO - Starting Pokemon TCG buying bot
-2025-03-21 17:25:10,931 - INFO - Check #1 for target product at 2025-03-21 17:25:10
-2025-03-21 17:25:10,931 - INFO - Sleeping for 10 seconds to mimic human behavior...
-2025-03-21 17:25:17,102 - INFO - Bot stopped by user
-2025-03-21 17:25:17,105 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1091edbd0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/8d00c16b548a2ca6031372bb803d5019/cookie
-2025-03-21 17:25:17,106 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1091ee0d0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/8d00c16b548a2ca6031372bb803d5019/cookie
-2025-03-21 17:25:17,107 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1090fefd0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/8d00c16b548a2ca6031372bb803d5019/cookie
-2025-03-21 17:25:17,108 - ERROR - Failed to save cookies: HTTPConnectionPool(host='localhost', port=53714): Max retries exceeded with url: /session/8d00c16b548a2ca6031372bb803d5019/cookie (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1091b83e0>: Failed to establish a new connection: [Errno 61] Connection refused'))
-2025-03-21 17:25:17,113 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10916b650>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/8d00c16b548a2ca6031372bb803d5019
-2025-03-21 17:25:17,114 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x109186cf0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/8d00c16b548a2ca6031372bb803d5019
-2025-03-21 17:25:17,116 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x109186f10>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/8d00c16b548a2ca6031372bb803d5019
-2025-03-21 17:25:17,117 - INFO - Bot shutting down
-2025-03-21 17:26:12,900 - INFO - Loaded configuration: targeting ['Scarlet & Violet', 'Destined Rivals'], quantity: 4
-2025-03-21 17:26:14,079 - INFO - patching driver executable /Users/danielcheah/Library/Application Support/undetected_chromedriver/undetected_chromedriver
-2025-03-21 17:26:16,576 - ERROR - Browser setup failed: 'PokemonTCGBot' object has no attribute 'load_cookies'
-2025-03-21 17:26:16,576 - INFO - ====== WebDriver manager ======
-2025-03-21 17:26:16,665 - INFO - Get LATEST chromedriver version for google-chrome
-2025-03-21 17:26:16,802 - INFO - Get LATEST chromedriver version for google-chrome
-2025-03-21 17:26:16,935 - INFO - Driver [/Users/danielcheah/.wdm/drivers/chromedriver/mac64/134.0.6998.165/chromedriver-mac-arm64/chromedriver] found in cache
-2025-03-21 17:26:17,741 - INFO - Fallback browser initialized with proxy
-2025-03-21 17:26:17,741 - INFO - Starting Pokemon TCG buying bot
-2025-03-21 17:26:17,741 - INFO - Check #1 for target product at 2025-03-21 17:26:17
-2025-03-21 17:26:17,741 - INFO - Sleeping for 10 seconds to mimic human behavior...
-2025-03-21 17:26:22,756 - INFO - Bot stopped by user
-2025-03-21 17:26:22,758 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x113cadbd0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/4b3d6f29b35a01feec5a30d9d1a56aa9/cookie
-2025-03-21 17:26:22,759 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x113cae0d0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/4b3d6f29b35a01feec5a30d9d1a56aa9/cookie
-2025-03-21 17:26:22,762 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x113bbefd0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/4b3d6f29b35a01feec5a30d9d1a56aa9/cookie
-2025-03-21 17:26:22,763 - ERROR - Failed to save cookies: HTTPConnectionPool(host='localhost', port=53887): Max retries exceeded with url: /session/4b3d6f29b35a01feec5a30d9d1a56aa9/cookie (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x113c7c3e0>: Failed to establish a new connection: [Errno 61] Connection refused'))
-2025-03-21 17:26:22,764 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x113c2b650>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/4b3d6f29b35a01feec5a30d9d1a56aa9
-2025-03-21 17:26:22,765 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x113c46cf0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/4b3d6f29b35a01feec5a30d9d1a56aa9
-2025-03-21 17:26:22,765 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x113c46f10>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/4b3d6f29b35a01feec5a30d9d1a56aa9
-2025-03-21 17:26:22,766 - INFO - Bot shutting down
-2025-03-21 17:27:09,530 - INFO - Loaded configuration: targeting ['Scarlet & Violet', 'Destined Rivals'], quantity: 4
-2025-03-21 17:27:10,671 - INFO - patching driver executable /Users/danielcheah/Library/Application Support/undetected_chromedriver/undetected_chromedriver
-2025-03-21 17:27:13,173 - ERROR - Browser setup failed: 'PokemonTCGBot' object has no attribute 'load_cookies'
-2025-03-21 17:27:13,173 - INFO - ====== WebDriver manager ======
-2025-03-21 17:27:13,281 - INFO - Get LATEST chromedriver version for google-chrome
-2025-03-21 17:27:13,419 - INFO - Get LATEST chromedriver version for google-chrome
-2025-03-21 17:27:13,563 - INFO - Driver [/Users/danielcheah/.wdm/drivers/chromedriver/mac64/134.0.6998.165/chromedriver-mac-arm64/chromedriver] found in cache
-2025-03-21 17:27:14,349 - INFO - Fallback browser initialized with proxy
-2025-03-21 17:27:14,349 - INFO - Starting Pokemon TCG buying bot
-2025-03-21 17:27:14,349 - INFO - Check #1 for target product at 2025-03-21 17:27:14
-2025-03-21 17:27:14,349 - INFO - Sleeping for 10 seconds to mimic human behavior...
-2025-03-21 17:27:17,793 - INFO - Bot stopped by user
-2025-03-21 17:27:17,802 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10b4d5bd0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/a2b05d467bf04ca2ee1b48e9ee4c6644/cookie
-2025-03-21 17:27:17,804 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10b4d60d0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/a2b05d467bf04ca2ee1b48e9ee4c6644/cookie
-2025-03-21 17:27:17,805 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10b3e6fd0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/a2b05d467bf04ca2ee1b48e9ee4c6644/cookie
-2025-03-21 17:27:17,805 - ERROR - Failed to save cookies: HTTPConnectionPool(host='localhost', port=54041): Max retries exceeded with url: /session/a2b05d467bf04ca2ee1b48e9ee4c6644/cookie (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10b4a03e0>: Failed to establish a new connection: [Errno 61] Connection refused'))
-2025-03-21 17:27:17,806 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10b453650>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/a2b05d467bf04ca2ee1b48e9ee4c6644
-2025-03-21 17:27:17,806 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10b46ecf0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/a2b05d467bf04ca2ee1b48e9ee4c6644
-2025-03-21 17:27:17,806 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10b46ef10>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/a2b05d467bf04ca2ee1b48e9ee4c6644
-2025-03-21 17:27:17,807 - INFO - Bot shutting down
-2025-03-21 17:28:36,701 - INFO - Loaded configuration: targeting ['Scarlet & Violet', 'Destined Rivals'], quantity: 4
-2025-03-21 17:28:37,840 - INFO - patching driver executable /Users/danielcheah/Library/Application Support/undetected_chromedriver/undetected_chromedriver
-2025-03-21 17:28:40,335 - ERROR - Browser setup failed: 'PokemonTCGBot' object has no attribute 'load_cookies'
-2025-03-21 17:28:40,335 - INFO - ====== WebDriver manager ======
-2025-03-21 17:28:40,419 - INFO - Get LATEST chromedriver version for google-chrome
-2025-03-21 17:28:40,542 - INFO - Get LATEST chromedriver version for google-chrome
-2025-03-21 17:28:40,679 - INFO - Driver [/Users/danielcheah/.wdm/drivers/chromedriver/mac64/134.0.6998.165/chromedriver-mac-arm64/chromedriver] found in cache
-2025-03-21 17:28:41,501 - INFO - Fallback browser initialized with proxy
-2025-03-21 17:28:41,501 - INFO - Starting Pokemon TCG buying bot
-2025-03-21 17:28:41,501 - INFO - Check #1 for target product at 2025-03-21 17:28:41
-2025-03-21 17:28:41,501 - INFO - Sleeping for 10 seconds to mimic human behavior...
-2025-03-21 17:28:53,025 - ERROR - Failed to check for product: name 'simulate_mouse_movement' is not defined
-2025-03-21 17:28:53,026 - INFO - Waiting approximately 30 seconds before next check
-2025-03-21 17:29:13,488 - INFO - Bot stopped by user
-2025-03-21 17:29:13,491 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(54, 'Connection reset by peer')': /session/11ed84a1529cda11410a25989cd3b664/cookie
-2025-03-21 17:29:13,496 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10cd560d0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/11ed84a1529cda11410a25989cd3b664/cookie
-2025-03-21 17:29:13,498 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10cc6afd0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/11ed84a1529cda11410a25989cd3b664/cookie
-2025-03-21 17:29:13,499 - ERROR - Failed to save cookies: HTTPConnectionPool(host='localhost', port=54221): Max retries exceeded with url: /session/11ed84a1529cda11410a25989cd3b664/cookie (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10cd283e0>: Failed to establish a new connection: [Errno 61] Connection refused'))
-2025-03-21 17:29:13,499 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10ccd6f90>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/11ed84a1529cda11410a25989cd3b664
-2025-03-21 17:29:13,500 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10ccf2cf0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/11ed84a1529cda11410a25989cd3b664
-2025-03-21 17:29:13,500 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10ccf2f10>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/11ed84a1529cda11410a25989cd3b664
-2025-03-21 17:29:13,501 - INFO - Bot shutting down
-2025-03-21 17:35:06,160 - INFO - Loaded configuration: targeting ['Scarlet & Violet', 'Destined Rivals'], quantity: 4
-2025-03-21 17:35:07,482 - INFO - patching driver executable /Users/danielcheah/Library/Application Support/undetected_chromedriver/undetected_chromedriver
-2025-03-21 17:35:09,985 - ERROR - Browser setup failed: 'PokemonTCGBot' object has no attribute 'load_cookies'
-2025-03-21 17:35:09,985 - INFO - ====== WebDriver manager ======
-2025-03-21 17:35:10,065 - INFO - Get LATEST chromedriver version for google-chrome
-2025-03-21 17:35:10,201 - INFO - Get LATEST chromedriver version for google-chrome
-2025-03-21 17:35:10,332 - INFO - Driver [/Users/danielcheah/.wdm/drivers/chromedriver/mac64/134.0.6998.165/chromedriver-mac-arm64/chromedriver] found in cache
-2025-03-21 17:35:11,118 - INFO - Fallback browser initialized with proxy
-2025-03-21 17:35:11,118 - INFO - Starting Pokemon TCG buying bot
-2025-03-21 17:35:11,118 - INFO - Check #1 for target product at 2025-03-21 17:35:11
-2025-03-21 17:35:11,118 - INFO - Sleeping for 10 seconds to mimic human behavior...
-2025-03-21 17:35:21,230 - ERROR - Failed to check for product: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+2025-03-21 20:39:54,404 - INFO - Loaded 5 proxies for rotation
+2025-03-21 20:39:54,405 - INFO - Using proxy: 169.197.83.74:6286
+2025-03-21 20:39:55,661 - INFO - patching driver executable /Users/danielcheah/Library/Application Support/undetected_chromedriver/undetected_chromedriver
+2025-03-21 20:40:00,024 - ERROR - Browser setup failed: load_cookies() missing 2 required positional arguments: 'driver' and 'cookies_file'
+2025-03-21 20:40:00,026 - INFO - Using proxy: 142.44.242.83:8080
+2025-03-21 20:40:00,026 - INFO - ====== WebDriver manager ======
+2025-03-21 20:40:00,144 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-21 20:40:00,268 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-21 20:40:00,393 - INFO - Driver [/Users/danielcheah/.wdm/drivers/chromedriver/mac64/134.0.6998.165/chromedriver-mac-arm64/chromedriver] found in cache
+2025-03-21 20:40:01,215 - INFO - Fallback browser initialized with proxy
+2025-03-21 20:40:01,215 - INFO - Starting Pokemon TCG buying bot
+2025-03-21 20:40:01,215 - INFO - Check #1 at 20:40:01
+2025-03-21 20:40:01,215 - INFO - Initial wait: 9.26 seconds...
+2025-03-21 20:40:10,712 - ERROR - Failed to check for product: Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
   (Session info: chrome=134.0.6998.166)
 Stacktrace:
-0   chromedriver                        0x00000001047936c8 cxxbridge1$str$ptr + 2791212
-1   chromedriver                        0x000000010478bc9c cxxbridge1$str$ptr + 2759936
-2   chromedriver                        0x00000001042dde30 cxxbridge1$string$len + 92928
-3   chromedriver                        0x00000001042d63c4 cxxbridge1$string$len + 61588
-4   chromedriver                        0x00000001042c85ac cxxbridge1$string$len + 4732
-5   chromedriver                        0x00000001042c9f8c cxxbridge1$string$len + 11356
-6   chromedriver                        0x00000001042c8a14 cxxbridge1$string$len + 5860
-7   chromedriver                        0x00000001042c8388 cxxbridge1$string$len + 4184
-8   chromedriver                        0x00000001042c80d4 cxxbridge1$string$len + 3492
-9   chromedriver                        0x00000001042c5dec chromedriver + 187884
-10  chromedriver                        0x00000001042c6910 chromedriver + 190736
-11  chromedriver                        0x00000001042e0de0 cxxbridge1$string$len + 105136
-12  chromedriver                        0x0000000104367118 cxxbridge1$string$len + 654824
-13  chromedriver                        0x00000001043665f8 cxxbridge1$string$len + 651976
-14  chromedriver                        0x00000001043192fc cxxbridge1$string$len + 335820
-15  chromedriver                        0x00000001047586c4 cxxbridge1$str$ptr + 2549544
-16  chromedriver                        0x000000010475b988 cxxbridge1$str$ptr + 2562540
-17  chromedriver                        0x000000010473871c cxxbridge1$str$ptr + 2418560
-18  chromedriver                        0x000000010475c1e8 cxxbridge1$str$ptr + 2564684
-19  chromedriver                        0x0000000104729750 cxxbridge1$str$ptr + 2357172
-20  chromedriver                        0x000000010477bf58 cxxbridge1$str$ptr + 2695100
-21  chromedriver                        0x000000010477c0e0 cxxbridge1$str$ptr + 2695492
-22  chromedriver                        0x000000010478b910 cxxbridge1$str$ptr + 2759028
+0   chromedriver                        0x0000000102c5b6c8 cxxbridge1$str$ptr + 2791212
+1   chromedriver                        0x0000000102c53c9c cxxbridge1$str$ptr + 2759936
+2   chromedriver                        0x00000001027a5e30 cxxbridge1$string$len + 92928
+3   chromedriver                        0x000000010279e3c4 cxxbridge1$string$len + 61588
+4   chromedriver                        0x00000001027905ac cxxbridge1$string$len + 4732
+5   chromedriver                        0x0000000102791f8c cxxbridge1$string$len + 11356
+6   chromedriver                        0x0000000102790a14 cxxbridge1$string$len + 5860
+7   chromedriver                        0x0000000102790388 cxxbridge1$string$len + 4184
+8   chromedriver                        0x00000001027900d4 cxxbridge1$string$len + 3492
+9   chromedriver                        0x000000010278ddec chromedriver + 187884
+10  chromedriver                        0x000000010278e910 chromedriver + 190736
+11  chromedriver                        0x00000001027a8de0 cxxbridge1$string$len + 105136
+12  chromedriver                        0x000000010282f118 cxxbridge1$string$len + 654824
+13  chromedriver                        0x000000010282e5f8 cxxbridge1$string$len + 651976
+14  chromedriver                        0x00000001027e12fc cxxbridge1$string$len + 335820
+15  chromedriver                        0x0000000102c206c4 cxxbridge1$str$ptr + 2549544
+16  chromedriver                        0x0000000102c23988 cxxbridge1$str$ptr + 2562540
+17  chromedriver                        0x0000000102c0071c cxxbridge1$str$ptr + 2418560
+18  chromedriver                        0x0000000102c241e8 cxxbridge1$str$ptr + 2564684
+19  chromedriver                        0x0000000102bf1750 cxxbridge1$str$ptr + 2357172
+20  chromedriver                        0x0000000102c43f58 cxxbridge1$str$ptr + 2695100
+21  chromedriver                        0x0000000102c440e0 cxxbridge1$str$ptr + 2695492
+22  chromedriver                        0x0000000102c53910 cxxbridge1$str$ptr + 2759028
 23  libsystem_pthread.dylib             0x000000018c4442e4 _pthread_start + 136
 24  libsystem_pthread.dylib             0x000000018c43f0fc thread_start + 8
 
-2025-03-21 17:35:21,230 - INFO - Waiting approximately 30 seconds before next check
-2025-03-21 17:35:51,234 - INFO - Check #2 for target product at 2025-03-21 17:35:51
-2025-03-21 17:35:51,235 - INFO - Sleeping for 10 seconds to mimic human behavior...
-2025-03-21 17:36:05,938 - ERROR - Failed to check for product: name 'simulate_mouse_movement' is not defined
-2025-03-21 17:36:05,938 - INFO - Waiting approximately 30 seconds before next check
-2025-03-21 17:36:35,943 - INFO - Check #3 for target product at 2025-03-21 17:36:35
-2025-03-21 17:36:35,945 - INFO - Sleeping for 10 seconds to mimic human behavior...
-2025-03-21 17:36:50,817 - ERROR - Failed to check for product: name 'simulate_mouse_movement' is not defined
-2025-03-21 17:36:50,818 - INFO - Waiting approximately 30 seconds before next check
-2025-03-21 17:37:20,824 - INFO - Check #4 for target product at 2025-03-21 17:37:20
-2025-03-21 17:37:20,825 - INFO - Sleeping for 10 seconds to mimic human behavior...
-2025-03-21 17:37:32,422 - ERROR - Failed to check for product: name 'simulate_mouse_movement' is not defined
-2025-03-21 17:37:32,423 - INFO - Waiting approximately 30 seconds before next check
-2025-03-21 17:37:49,839 - INFO - Bot stopped by user
-2025-03-21 17:37:49,853 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10bbadbd0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/7028f086a174d6b78401de0804569825/cookie
-2025-03-21 17:37:49,854 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10bbae0d0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/7028f086a174d6b78401de0804569825/cookie
-2025-03-21 17:37:49,855 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10bac2fd0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/7028f086a174d6b78401de0804569825/cookie
-2025-03-21 17:37:49,856 - ERROR - Failed to save cookies: HTTPConnectionPool(host='localhost', port=54812): Max retries exceeded with url: /session/7028f086a174d6b78401de0804569825/cookie (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10bb7c3e0>: Failed to establish a new connection: [Errno 61] Connection refused'))
-2025-03-21 17:37:49,856 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10bb2af90>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/7028f086a174d6b78401de0804569825
-2025-03-21 17:37:49,857 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10bb46cf0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/7028f086a174d6b78401de0804569825
-2025-03-21 17:37:49,858 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10bb46f10>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/7028f086a174d6b78401de0804569825
-2025-03-21 17:37:49,870 - INFO - Bot shutting down
-2025-03-21 17:41:25,485 - INFO - Loaded configuration: targeting ['Scarlet & Violet', 'Destined Rivals'], quantity: 4
-2025-03-21 17:41:26,902 - INFO - patching driver executable /Users/danielcheah/Library/Application Support/undetected_chromedriver/undetected_chromedriver
-2025-03-21 17:41:29,407 - ERROR - Browser setup failed: 'PokemonTCGBot' object has no attribute 'load_cookies'
-2025-03-21 17:41:29,407 - INFO - ====== WebDriver manager ======
-2025-03-21 17:41:29,488 - INFO - Get LATEST chromedriver version for google-chrome
-2025-03-21 17:41:29,614 - INFO - Get LATEST chromedriver version for google-chrome
-2025-03-21 17:41:29,736 - INFO - Driver [/Users/danielcheah/.wdm/drivers/chromedriver/mac64/134.0.6998.165/chromedriver-mac-arm64/chromedriver] found in cache
-2025-03-21 17:41:30,524 - INFO - Fallback browser initialized with proxy
-2025-03-21 17:41:30,525 - INFO - Starting Pokemon TCG buying bot
-2025-03-21 17:41:30,525 - INFO - Check #1 for target product at 2025-03-21 17:41:30
-2025-03-21 17:41:30,525 - INFO - Sleeping for 10 seconds to mimic human behavior...
-2025-03-21 17:41:42,999 - ERROR - Failed to check for product: name 'simulate_mouse_movement' is not defined
-2025-03-21 17:41:43,001 - INFO - Waiting approximately 30 seconds before next check
-2025-03-21 17:42:13,007 - INFO - Check #2 for target product at 2025-03-21 17:42:13
-2025-03-21 17:42:13,008 - INFO - Sleeping for 10 seconds to mimic human behavior...
-2025-03-21 17:42:25,514 - ERROR - Failed to check for product: name 'simulate_mouse_movement' is not defined
-2025-03-21 17:42:25,515 - INFO - Waiting approximately 30 seconds before next check
-2025-03-21 17:42:41,650 - INFO - Bot stopped by user
-2025-03-21 17:42:41,653 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(54, 'Connection reset by peer')': /session/e1f927f1a2486352ccbeaf2efe5f63e7/cookie
-2025-03-21 17:42:41,656 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10d4ae0d0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/e1f927f1a2486352ccbeaf2efe5f63e7/cookie
-2025-03-21 17:42:41,658 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10d3befd0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/e1f927f1a2486352ccbeaf2efe5f63e7/cookie
-2025-03-21 17:42:41,660 - ERROR - Failed to save cookies: HTTPConnectionPool(host='localhost', port=55619): Max retries exceeded with url: /session/e1f927f1a2486352ccbeaf2efe5f63e7/cookie (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10d47c3e0>: Failed to establish a new connection: [Errno 61] Connection refused'))
-2025-03-21 17:42:41,661 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10d42af90>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/e1f927f1a2486352ccbeaf2efe5f63e7
-2025-03-21 17:42:41,662 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10d446cf0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/e1f927f1a2486352ccbeaf2efe5f63e7
-2025-03-21 17:42:41,663 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10d446f10>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/e1f927f1a2486352ccbeaf2efe5f63e7
-2025-03-21 17:42:41,665 - INFO - Bot shutting down
-2025-03-21 19:44:19,356 - INFO - Loaded configuration: targeting ['Scarlet & Violet', 'Destined Rivals'], quantity: 4
-2025-03-21 19:44:20,826 - INFO - patching driver executable /Users/danielcheah/Library/Application Support/undetected_chromedriver/undetected_chromedriver
-2025-03-21 19:44:23,801 - ERROR - Browser setup failed: 'PokemonTCGBot' object has no attribute 'load_cookies'
-2025-03-21 19:44:23,801 - INFO - ====== WebDriver manager ======
-2025-03-21 19:44:23,881 - INFO - Get LATEST chromedriver version for google-chrome
-2025-03-21 19:44:24,003 - INFO - Get LATEST chromedriver version for google-chrome
-2025-03-21 19:44:24,131 - INFO - Driver [/Users/danielcheah/.wdm/drivers/chromedriver/mac64/134.0.6998.165/chromedriver-mac-arm64/chromedriver] found in cache
-2025-03-21 19:44:24,922 - INFO - Fallback browser initialized with proxy
-2025-03-21 19:44:24,923 - INFO - Starting Pokemon TCG buying bot
-2025-03-21 19:44:24,923 - INFO - Check #1 for target product at 2025-03-21 19:44:24
-2025-03-21 19:44:24,923 - INFO - Sleeping for 10 seconds to mimic human behavior...
-2025-03-21 19:44:36,782 - ERROR - Failed to check for product: name 'simulate_mouse_movement' is not defined
-2025-03-21 19:44:36,782 - INFO - Waiting approximately 30 seconds before next check
-2025-03-21 19:45:06,787 - INFO - Check #2 for target product at 2025-03-21 19:45:06
-2025-03-21 19:45:06,788 - INFO - Sleeping for 10 seconds to mimic human behavior...
-2025-03-21 19:45:18,744 - ERROR - Failed to check for product: name 'simulate_mouse_movement' is not defined
-2025-03-21 19:45:18,745 - INFO - Waiting approximately 30 seconds before next check
-2025-03-21 19:45:40,013 - INFO - Bot stopped by user
-2025-03-21 19:45:40,030 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10deadbd0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/551f4cf2dcea6f6674262113145febf6/cookie
-2025-03-21 19:45:40,031 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10deae0d0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/551f4cf2dcea6f6674262113145febf6/cookie
-2025-03-21 19:45:40,033 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10ddbefd0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/551f4cf2dcea6f6674262113145febf6/cookie
-2025-03-21 19:45:40,042 - ERROR - Failed to save cookies: HTTPConnectionPool(host='localhost', port=59414): Max retries exceeded with url: /session/551f4cf2dcea6f6674262113145febf6/cookie (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10de7c3e0>: Failed to establish a new connection: [Errno 61] Connection refused'))
-2025-03-21 19:45:40,043 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10de2af90>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/551f4cf2dcea6f6674262113145febf6
-2025-03-21 19:45:40,044 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10de46cf0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/551f4cf2dcea6f6674262113145febf6
-2025-03-21 19:45:40,045 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10de46f10>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/551f4cf2dcea6f6674262113145febf6
-2025-03-21 19:45:40,046 - INFO - Bot shutting down
-2025-03-21 20:18:38,113 - INFO - Loaded configuration: targeting ['Scarlet & Violet', 'Destined Rivals'], quantity: 4
-2025-03-21 20:18:39,555 - INFO - patching driver executable /Users/danielcheah/Library/Application Support/undetected_chromedriver/undetected_chromedriver
-2025-03-21 20:18:42,536 - ERROR - Browser setup failed: 'PokemonTCGBot' object has no attribute 'load_cookies'
-2025-03-21 20:18:42,537 - INFO - ====== WebDriver manager ======
-2025-03-21 20:18:42,615 - INFO - Get LATEST chromedriver version for google-chrome
-2025-03-21 20:18:42,806 - INFO - Get LATEST chromedriver version for google-chrome
-2025-03-21 20:18:42,925 - INFO - Driver [/Users/danielcheah/.wdm/drivers/chromedriver/mac64/134.0.6998.165/chromedriver-mac-arm64/chromedriver] found in cache
-2025-03-21 20:18:43,702 - INFO - Fallback browser initialized with proxy
-2025-03-21 20:18:43,703 - INFO - Starting Pokemon TCG buying bot
-2025-03-21 20:18:43,703 - INFO - Check #1 for target product at 2025-03-21 20:18:43
-2025-03-21 20:18:43,703 - INFO - Sleeping for 10 seconds to mimic human behavior...
-2025-03-21 20:18:56,374 - ERROR - Failed to check for product: name 'simulate_mouse_movement' is not defined
-2025-03-21 20:18:56,375 - INFO - Waiting approximately 30 seconds before next check
-2025-03-21 20:19:26,381 - INFO - Check #2 for target product at 2025-03-21 20:19:26
-2025-03-21 20:19:26,382 - INFO - Sleeping for 10 seconds to mimic human behavior...
-2025-03-21 20:19:38,295 - ERROR - Failed to check for product: name 'simulate_mouse_movement' is not defined
-2025-03-21 20:19:38,295 - INFO - Waiting approximately 30 seconds before next check
-2025-03-21 20:20:08,296 - INFO - Check #3 for target product at 2025-03-21 20:20:08
-2025-03-21 20:20:08,298 - INFO - Sleeping for 10 seconds to mimic human behavior...
-2025-03-21 20:20:22,374 - ERROR - Failed to check for product: name 'simulate_mouse_movement' is not defined
-2025-03-21 20:20:22,376 - INFO - Waiting approximately 30 seconds before next check
-2025-03-21 20:20:44,229 - INFO - Bot stopped by user
-2025-03-21 20:20:44,238 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10ceadbd0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/0bb39e97e55ad2017998296a99f84303/cookie
-2025-03-21 20:20:44,239 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10ceae0d0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/0bb39e97e55ad2017998296a99f84303/cookie
-2025-03-21 20:20:44,240 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10cdbefd0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/0bb39e97e55ad2017998296a99f84303/cookie
-2025-03-21 20:20:44,240 - ERROR - Failed to save cookies: HTTPConnectionPool(host='localhost', port=61845): Max retries exceeded with url: /session/0bb39e97e55ad2017998296a99f84303/cookie (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10ce7c3e0>: Failed to establish a new connection: [Errno 61] Connection refused'))
-2025-03-21 20:20:44,241 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10ce2af90>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/0bb39e97e55ad2017998296a99f84303
-2025-03-21 20:20:44,242 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10ce46cf0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/0bb39e97e55ad2017998296a99f84303
-2025-03-21 20:20:44,242 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10ce46f10>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/0bb39e97e55ad2017998296a99f84303
-2025-03-21 20:20:44,243 - INFO - Bot shutting down
+2025-03-21 20:40:10,712 - INFO - Next check in approximately 25.83 seconds
+2025-03-21 20:40:36,549 - INFO - Attempt 2 (2025-03-21 20:40)
+2025-03-21 20:40:36,551 - INFO - Initial wait: 6.65 seconds...
+2025-03-21 20:40:43,337 - ERROR - Failed to check for product: Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=134.0.6998.166)
+Stacktrace:
+0   chromedriver                        0x0000000102c5b6c8 cxxbridge1$str$ptr + 2791212
+1   chromedriver                        0x0000000102c53c9c cxxbridge1$str$ptr + 2759936
+2   chromedriver                        0x00000001027a5e30 cxxbridge1$string$len + 92928
+3   chromedriver                        0x000000010279e3c4 cxxbridge1$string$len + 61588
+4   chromedriver                        0x00000001027905ac cxxbridge1$string$len + 4732
+5   chromedriver                        0x0000000102791f8c cxxbridge1$string$len + 11356
+6   chromedriver                        0x0000000102790a14 cxxbridge1$string$len + 5860
+7   chromedriver                        0x0000000102790388 cxxbridge1$string$len + 4184
+8   chromedriver                        0x00000001027900d4 cxxbridge1$string$len + 3492
+9   chromedriver                        0x000000010278ddec chromedriver + 187884
+10  chromedriver                        0x000000010278e910 chromedriver + 190736
+11  chromedriver                        0x00000001027a8de0 cxxbridge1$string$len + 105136
+12  chromedriver                        0x000000010282f118 cxxbridge1$string$len + 654824
+13  chromedriver                        0x000000010282e5f8 cxxbridge1$string$len + 651976
+14  chromedriver                        0x00000001027e12fc cxxbridge1$string$len + 335820
+15  chromedriver                        0x0000000102c206c4 cxxbridge1$str$ptr + 2549544
+16  chromedriver                        0x0000000102c23988 cxxbridge1$str$ptr + 2562540
+17  chromedriver                        0x0000000102c0071c cxxbridge1$str$ptr + 2418560
+18  chromedriver                        0x0000000102c241e8 cxxbridge1$str$ptr + 2564684
+19  chromedriver                        0x0000000102bf1750 cxxbridge1$str$ptr + 2357172
+20  chromedriver                        0x0000000102c43f58 cxxbridge1$str$ptr + 2695100
+21  chromedriver                        0x0000000102c440e0 cxxbridge1$str$ptr + 2695492
+22  chromedriver                        0x0000000102c53910 cxxbridge1$str$ptr + 2759028
+23  libsystem_pthread.dylib             0x000000018c4442e4 _pthread_start + 136
+24  libsystem_pthread.dylib             0x000000018c43f0fc thread_start + 8
+
+2025-03-21 20:40:43,337 - INFO - Next check in approximately 26.24 seconds
+2025-03-21 20:41:09,582 - INFO - Check #3 at 20:41:09
+2025-03-21 20:41:09,583 - INFO - Rotating to proxy: 209.127.191.180:9279
+2025-03-21 20:41:09,671 - INFO - Using proxy: 142.44.242.83:8080
+2025-03-21 20:41:10,804 - INFO - patching driver executable /Users/danielcheah/Library/Application Support/undetected_chromedriver/undetected_chromedriver
+2025-03-21 20:41:13,623 - ERROR - Browser setup failed: Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=134.0.6998.166)
+Stacktrace:
+0   undetected_chromedriver             0x00000001006f7568 undetected_chromedriver + 6088040
+1   undetected_chromedriver             0x00000001006ef17a undetected_chromedriver + 6054266
+2   undetected_chromedriver             0x000000010018e540 undetected_chromedriver + 415040
+3   undetected_chromedriver             0x000000010018546f undetected_chromedriver + 377967
+4   undetected_chromedriver             0x00000001001758d8 undetected_chromedriver + 313560
+5   undetected_chromedriver             0x00000001001775cd undetected_chromedriver + 320973
+6   undetected_chromedriver             0x0000000100175c5b undetected_chromedriver + 314459
+7   undetected_chromedriver             0x0000000100175679 undetected_chromedriver + 312953
+8   undetected_chromedriver             0x000000010017537d undetected_chromedriver + 312189
+9   undetected_chromedriver             0x0000000100173130 undetected_chromedriver + 303408
+10  undetected_chromedriver             0x00000001001739fa undetected_chromedriver + 305658
+11  undetected_chromedriver             0x0000000100191a19 undetected_chromedriver + 428569
+12  undetected_chromedriver             0x000000010022e6d5 undetected_chromedriver + 1070805
+13  undetected_chromedriver             0x00000001002063f2 undetected_chromedriver + 906226
+14  undetected_chromedriver             0x000000010022da19 undetected_chromedriver + 1067545
+15  undetected_chromedriver             0x00000001002061c3 undetected_chromedriver + 905667
+16  undetected_chromedriver             0x00000001001d205a undetected_chromedriver + 692314
+17  undetected_chromedriver             0x00000001001d31b1 undetected_chromedriver + 696753
+18  undetected_chromedriver             0x00000001006b6c90 undetected_chromedriver + 5823632
+19  undetected_chromedriver             0x00000001006bab44 undetected_chromedriver + 5839684
+20  undetected_chromedriver             0x0000000100691e86 undetected_chromedriver + 5672582
+21  undetected_chromedriver             0x00000001006bb53b undetected_chromedriver + 5842235
+22  undetected_chromedriver             0x0000000100680824 undetected_chromedriver + 5601316
+23  undetected_chromedriver             0x00000001006dd618 undetected_chromedriver + 5981720
+24  undetected_chromedriver             0x00000001006dd7df undetected_chromedriver + 5982175
+25  undetected_chromedriver             0x00000001006eed58 undetected_chromedriver + 6053208
+26  libsystem_pthread.dylib             0x00007ff812938253 _pthread_start + 99
+27  libsystem_pthread.dylib             0x00007ff812933bef thread_start + 15
+
+2025-03-21 20:41:13,624 - INFO - Using proxy: 169.197.83.74:6286
+2025-03-21 20:41:13,624 - INFO - ====== WebDriver manager ======
+2025-03-21 20:41:13,706 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-21 20:41:13,823 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-21 20:41:13,952 - INFO - Driver [/Users/danielcheah/.wdm/drivers/chromedriver/mac64/134.0.6998.165/chromedriver-mac-arm64/chromedriver] found in cache
+2025-03-21 20:41:14,758 - INFO - Fallback browser initialized with proxy
+2025-03-21 20:41:14,758 - INFO - Initial wait: 11.86 seconds...
+2025-03-21 20:41:51,172 - INFO - Bot stopped by user
+2025-03-21 20:41:51,189 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x107c6b490>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/1227b89eda97202b9a3eb968fd29d646/cookie
+2025-03-21 20:41:51,190 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x107c6b230>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/1227b89eda97202b9a3eb968fd29d646/cookie
+2025-03-21 20:41:51,192 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x107c5ad50>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/1227b89eda97202b9a3eb968fd29d646/cookie
+2025-03-21 20:41:51,193 - ERROR - Failed to save cookies: HTTPConnectionPool(host='localhost', port=63637): Max retries exceeded with url: /session/1227b89eda97202b9a3eb968fd29d646/cookie (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x107c6c6b0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-03-21 20:41:51,194 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x107c6e9c0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/1227b89eda97202b9a3eb968fd29d646
+2025-03-21 20:41:51,195 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x107c6ecf0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/1227b89eda97202b9a3eb968fd29d646
+2025-03-21 20:41:51,195 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x107c6ef10>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/1227b89eda97202b9a3eb968fd29d646
+2025-03-21 20:41:51,197 - INFO - Bot shutting down
+2025-03-21 20:53:22,993 - INFO - Loaded 5 proxies for rotation
+2025-03-21 20:53:22,993 - INFO - Using proxy: 142.44.242.81:8080
+2025-03-21 20:53:24,415 - INFO - patching driver executable /Users/danielcheah/Library/Application Support/undetected_chromedriver/undetected_chromedriver
+2025-03-21 20:53:27,671 - ERROR - Browser setup failed: Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=134.0.6998.166)
+Stacktrace:
+0   undetected_chromedriver             0x0000000104d6a568 undetected_chromedriver + 6088040
+1   undetected_chromedriver             0x0000000104d6217a undetected_chromedriver + 6054266
+2   undetected_chromedriver             0x0000000104801540 undetected_chromedriver + 415040
+3   undetected_chromedriver             0x00000001047f846f undetected_chromedriver + 377967
+4   undetected_chromedriver             0x00000001047e88d8 undetected_chromedriver + 313560
+5   undetected_chromedriver             0x00000001047ea5cd undetected_chromedriver + 320973
+6   undetected_chromedriver             0x00000001047e8c5b undetected_chromedriver + 314459
+7   undetected_chromedriver             0x00000001047e8679 undetected_chromedriver + 312953
+8   undetected_chromedriver             0x00000001047e837d undetected_chromedriver + 312189
+9   undetected_chromedriver             0x00000001047e6130 undetected_chromedriver + 303408
+10  undetected_chromedriver             0x00000001047e69fa undetected_chromedriver + 305658
+11  undetected_chromedriver             0x0000000104804a19 undetected_chromedriver + 428569
+12  undetected_chromedriver             0x00000001048a16d5 undetected_chromedriver + 1070805
+13  undetected_chromedriver             0x00000001048793f2 undetected_chromedriver + 906226
+14  undetected_chromedriver             0x00000001048a0a19 undetected_chromedriver + 1067545
+15  undetected_chromedriver             0x00000001048791c3 undetected_chromedriver + 905667
+16  undetected_chromedriver             0x000000010484505a undetected_chromedriver + 692314
+17  undetected_chromedriver             0x00000001048461b1 undetected_chromedriver + 696753
+18  undetected_chromedriver             0x0000000104d29c90 undetected_chromedriver + 5823632
+19  undetected_chromedriver             0x0000000104d2db44 undetected_chromedriver + 5839684
+20  undetected_chromedriver             0x0000000104d04e86 undetected_chromedriver + 5672582
+21  undetected_chromedriver             0x0000000104d2e53b undetected_chromedriver + 5842235
+22  undetected_chromedriver             0x0000000104cf3824 undetected_chromedriver + 5601316
+23  undetected_chromedriver             0x0000000104d50618 undetected_chromedriver + 5981720
+24  undetected_chromedriver             0x0000000104d507df undetected_chromedriver + 5982175
+25  undetected_chromedriver             0x0000000104d61d58 undetected_chromedriver + 6053208
+26  libsystem_pthread.dylib             0x00007ff812938253 _pthread_start + 99
+27  libsystem_pthread.dylib             0x00007ff812933bef thread_start + 15
+
+2025-03-21 20:53:27,671 - INFO - Using proxy: 209.127.191.180:9279
+2025-03-21 20:53:27,671 - INFO - ====== WebDriver manager ======
+2025-03-21 20:53:27,750 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-21 20:53:27,971 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-21 20:53:28,101 - INFO - Driver [/Users/danielcheah/.wdm/drivers/chromedriver/mac64/134.0.6998.165/chromedriver-mac-arm64/chromedriver] found in cache
+2025-03-21 20:53:28,897 - INFO - Fallback browser initialized with proxy
+2025-03-21 20:53:28,898 - INFO - Starting Pokemon TCG buying bot
+2025-03-21 20:53:28,898 - INFO - Attempt 1 (2025-03-21 20:53)
+2025-03-21 20:53:28,898 - INFO - Initial wait: 13.11 seconds...
+2025-03-21 20:53:42,192 - ERROR - Failed to check for product: Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=134.0.6998.166)
+Stacktrace:
+0   chromedriver                        0x0000000100c4f6c8 cxxbridge1$str$ptr + 2791212
+1   chromedriver                        0x0000000100c47c9c cxxbridge1$str$ptr + 2759936
+2   chromedriver                        0x0000000100799e30 cxxbridge1$string$len + 92928
+3   chromedriver                        0x00000001007923c4 cxxbridge1$string$len + 61588
+4   chromedriver                        0x00000001007845ac cxxbridge1$string$len + 4732
+5   chromedriver                        0x0000000100785f8c cxxbridge1$string$len + 11356
+6   chromedriver                        0x0000000100784a14 cxxbridge1$string$len + 5860
+7   chromedriver                        0x0000000100784388 cxxbridge1$string$len + 4184
+8   chromedriver                        0x00000001007840d4 cxxbridge1$string$len + 3492
+9   chromedriver                        0x0000000100781dec chromedriver + 187884
+10  chromedriver                        0x0000000100782910 chromedriver + 190736
+11  chromedriver                        0x000000010079cde0 cxxbridge1$string$len + 105136
+12  chromedriver                        0x0000000100823118 cxxbridge1$string$len + 654824
+13  chromedriver                        0x00000001008225f8 cxxbridge1$string$len + 651976
+14  chromedriver                        0x00000001007d52fc cxxbridge1$string$len + 335820
+15  chromedriver                        0x0000000100c146c4 cxxbridge1$str$ptr + 2549544
+16  chromedriver                        0x0000000100c17988 cxxbridge1$str$ptr + 2562540
+17  chromedriver                        0x0000000100bf471c cxxbridge1$str$ptr + 2418560
+18  chromedriver                        0x0000000100c181e8 cxxbridge1$str$ptr + 2564684
+19  chromedriver                        0x0000000100be5750 cxxbridge1$str$ptr + 2357172
+20  chromedriver                        0x0000000100c37f58 cxxbridge1$str$ptr + 2695100
+21  chromedriver                        0x0000000100c380e0 cxxbridge1$str$ptr + 2695492
+22  chromedriver                        0x0000000100c47910 cxxbridge1$str$ptr + 2759028
+23  libsystem_pthread.dylib             0x000000018c4442e4 _pthread_start + 136
+24  libsystem_pthread.dylib             0x000000018c43f0fc thread_start + 8
+
+2025-03-21 20:53:42,193 - INFO - Next check in approximately 32.83 seconds
+2025-03-21 20:54:15,029 - INFO - Check #2 at 20:54:15
+2025-03-21 20:54:15,031 - INFO - Initial wait: 12.19 seconds...
+2025-03-21 20:54:26,718 - INFO - Bot stopped by user
+2025-03-21 20:54:26,731 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10bb25d10>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/34462dd57957bf5e91954fc8127d7b96/cookie
+2025-03-21 20:54:26,732 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10bb26210>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/34462dd57957bf5e91954fc8127d7b96/cookie
+2025-03-21 20:54:26,733 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10ba24640>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/34462dd57957bf5e91954fc8127d7b96/cookie
+2025-03-21 20:54:26,734 - ERROR - Failed to save cookies: HTTPConnectionPool(host='localhost', port=64511): Max retries exceeded with url: /session/34462dd57957bf5e91954fc8127d7b96/cookie (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10ba248a0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-03-21 20:54:26,734 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x105356f90>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/34462dd57957bf5e91954fc8127d7b96
+2025-03-21 20:54:26,735 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10521ef10>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/34462dd57957bf5e91954fc8127d7b96
+2025-03-21 20:54:26,735 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10521f130>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/34462dd57957bf5e91954fc8127d7b96
+2025-03-21 20:54:26,736 - INFO - Bot shutting down
+2025-03-21 20:55:47,286 - INFO - Loaded 5 proxies for rotation
+2025-03-21 20:55:47,286 - INFO - Using proxy: 98.76.54.32:3128
+2025-03-21 20:55:48,399 - INFO - patching driver executable /Users/danielcheah/Library/Application Support/undetected_chromedriver/undetected_chromedriver
+2025-03-21 20:56:03,398 - ERROR - Browser setup failed: load_cookies() missing 2 required positional arguments: 'driver' and 'cookies_file'
+2025-03-21 20:56:03,399 - INFO - Using proxy: 98.76.54.32:3128
+2025-03-21 20:56:03,399 - INFO - ====== WebDriver manager ======
+2025-03-21 20:56:03,522 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-21 20:56:03,678 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-21 20:56:03,804 - INFO - Driver [/Users/danielcheah/.wdm/drivers/chromedriver/mac64/134.0.6998.165/chromedriver-mac-arm64/chromedriver] found in cache
+2025-03-21 20:56:04,620 - INFO - Fallback browser initialized with proxy
+2025-03-21 20:56:04,621 - INFO - Starting Pokemon TCG buying bot
+2025-03-21 20:56:04,621 - INFO - Attempt 1 (2025-03-21 20:56)
+2025-03-21 20:56:04,621 - INFO - Initial wait: 9.52 seconds...
+2025-03-21 20:56:53,207 - INFO - Bot stopped by user
+2025-03-21 20:56:53,210 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(54, 'Connection reset by peer')': /session/0d39b0d1ebc65cfccff11fe9aa3b8478/cookie
+2025-03-21 20:56:53,212 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10b5260d0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/0d39b0d1ebc65cfccff11fe9aa3b8478/cookie
+2025-03-21 20:56:53,212 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10b424640>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/0d39b0d1ebc65cfccff11fe9aa3b8478/cookie
+2025-03-21 20:56:53,214 - ERROR - Failed to save cookies: HTTPConnectionPool(host='localhost', port=64797): Max retries exceeded with url: /session/0d39b0d1ebc65cfccff11fe9aa3b8478/cookie (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10b4248a0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-03-21 20:56:53,218 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104ccb530>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/0d39b0d1ebc65cfccff11fe9aa3b8478
+2025-03-21 20:56:53,219 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104b92f10>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/0d39b0d1ebc65cfccff11fe9aa3b8478
+2025-03-21 20:56:53,220 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104b93130>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/0d39b0d1ebc65cfccff11fe9aa3b8478
+2025-03-21 20:56:53,224 - INFO - Bot shutting down
+2025-03-21 21:03:37,847 - INFO - Loaded 4 proxies for rotation
+2025-03-21 21:03:37,847 - INFO - Using proxy: http://98.76.54.32:3128
+2025-03-21 21:03:39,117 - INFO - patching driver executable /Users/danielcheah/Library/Application Support/undetected_chromedriver/undetected_chromedriver
+2025-03-21 21:03:54,369 - ERROR - Browser setup failed: load_cookies() missing 2 required positional arguments: 'driver' and 'cookies_file'
+2025-03-21 21:03:54,370 - INFO - Using proxy: http://98.76.54.32:3128
+2025-03-21 21:03:54,371 - INFO - ====== WebDriver manager ======
+2025-03-21 21:03:54,480 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-21 21:03:54,614 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-21 21:03:54,741 - INFO - Driver [/Users/danielcheah/.wdm/drivers/chromedriver/mac64/134.0.6998.165/chromedriver-mac-arm64/chromedriver] found in cache
+2025-03-21 21:03:55,530 - INFO - Fallback browser initialized with proxy
+2025-03-21 21:03:55,530 - INFO - Starting Pokemon TCG buying bot
+2025-03-21 21:03:55,530 - INFO - Attempt 1 (2025-03-21 21:03)
+2025-03-21 21:03:55,530 - INFO - Initial wait: 9.51 seconds...
+2025-03-21 21:05:18,536 - INFO - Bot stopped by user
+2025-03-21 21:05:18,539 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x108c35bd0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/0131e2ec8e48e4e4341632beef5dfd04/cookie
+2025-03-21 21:05:18,540 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x108c360d0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/0131e2ec8e48e4e4341632beef5dfd04/cookie
+2025-03-21 21:05:18,543 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x108b24640>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/0131e2ec8e48e4e4341632beef5dfd04/cookie
+2025-03-21 21:05:18,545 - ERROR - Failed to save cookies: HTTPConnectionPool(host='localhost', port=65400): Max retries exceeded with url: /session/0131e2ec8e48e4e4341632beef5dfd04/cookie (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x108b248a0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-03-21 21:05:18,549 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10248f530>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/0131e2ec8e48e4e4341632beef5dfd04
+2025-03-21 21:05:18,550 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10231ef10>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/0131e2ec8e48e4e4341632beef5dfd04
+2025-03-21 21:05:18,552 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10231f130>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/0131e2ec8e48e4e4341632beef5dfd04
+2025-03-21 21:05:18,553 - INFO - Bot shutting down
+2025-03-21 21:05:25,058 - INFO - Loaded 4 proxies for rotation
+2025-03-21 21:05:25,058 - INFO - Using proxy: http://72.10.164.178:32969
+2025-03-21 21:05:26,436 - INFO - patching driver executable /Users/danielcheah/Library/Application Support/undetected_chromedriver/undetected_chromedriver
+2025-03-21 21:05:29,203 - ERROR - Browser setup failed: Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=134.0.6998.166)
+Stacktrace:
+0   undetected_chromedriver             0x0000000100af8568 undetected_chromedriver + 6088040
+1   undetected_chromedriver             0x0000000100af017a undetected_chromedriver + 6054266
+2   undetected_chromedriver             0x000000010058f540 undetected_chromedriver + 415040
+3   undetected_chromedriver             0x000000010058646f undetected_chromedriver + 377967
+4   undetected_chromedriver             0x00000001005768d8 undetected_chromedriver + 313560
+5   undetected_chromedriver             0x00000001005785cd undetected_chromedriver + 320973
+6   undetected_chromedriver             0x0000000100576c5b undetected_chromedriver + 314459
+7   undetected_chromedriver             0x0000000100576679 undetected_chromedriver + 312953
+8   undetected_chromedriver             0x000000010057637d undetected_chromedriver + 312189
+9   undetected_chromedriver             0x0000000100574130 undetected_chromedriver + 303408
+10  undetected_chromedriver             0x00000001005749fa undetected_chromedriver + 305658
+11  undetected_chromedriver             0x0000000100592a19 undetected_chromedriver + 428569
+12  undetected_chromedriver             0x000000010062f6d5 undetected_chromedriver + 1070805
+13  undetected_chromedriver             0x00000001006073f2 undetected_chromedriver + 906226
+14  undetected_chromedriver             0x000000010062ea19 undetected_chromedriver + 1067545
+15  undetected_chromedriver             0x00000001006071c3 undetected_chromedriver + 905667
+16  undetected_chromedriver             0x00000001005d305a undetected_chromedriver + 692314
+17  undetected_chromedriver             0x00000001005d41b1 undetected_chromedriver + 696753
+18  undetected_chromedriver             0x0000000100ab7c90 undetected_chromedriver + 5823632
+19  undetected_chromedriver             0x0000000100abbb44 undetected_chromedriver + 5839684
+20  undetected_chromedriver             0x0000000100a92e86 undetected_chromedriver + 5672582
+21  undetected_chromedriver             0x0000000100abc53b undetected_chromedriver + 5842235
+22  undetected_chromedriver             0x0000000100a81824 undetected_chromedriver + 5601316
+23  undetected_chromedriver             0x0000000100ade618 undetected_chromedriver + 5981720
+24  undetected_chromedriver             0x0000000100ade7df undetected_chromedriver + 5982175
+25  undetected_chromedriver             0x0000000100aefd58 undetected_chromedriver + 6053208
+26  libsystem_pthread.dylib             0x00007ff812938253 _pthread_start + 99
+27  libsystem_pthread.dylib             0x00007ff812933bef thread_start + 15
+
+2025-03-21 21:05:29,204 - INFO - Using proxy: http://98.76.54.32:3128
+2025-03-21 21:05:29,204 - INFO - ====== WebDriver manager ======
+2025-03-21 21:05:29,286 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-21 21:05:29,409 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-21 21:05:29,532 - INFO - Driver [/Users/danielcheah/.wdm/drivers/chromedriver/mac64/134.0.6998.165/chromedriver-mac-arm64/chromedriver] found in cache
+2025-03-21 21:05:30,331 - INFO - Fallback browser initialized with proxy
+2025-03-21 21:05:30,331 - INFO - Starting Pokemon TCG buying bot
+2025-03-21 21:05:30,332 - INFO - Attempt 1 (2025-03-21 21:05)
+2025-03-21 21:05:30,332 - INFO - Initial wait: 13.21 seconds...
+2025-03-21 21:05:55,575 - INFO - Bot stopped by user
+2025-03-21 21:05:55,577 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1079add10>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/0f5dc616fa1aa66b93e8412b740b05f2/cookie
+2025-03-21 21:05:55,577 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10786c8a0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/0f5dc616fa1aa66b93e8412b740b05f2/cookie
+2025-03-21 21:05:55,578 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10786c640>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/0f5dc616fa1aa66b93e8412b740b05f2/cookie
+2025-03-21 21:05:55,579 - ERROR - Failed to save cookies: HTTPConnectionPool(host='localhost', port=49249): Max retries exceeded with url: /session/0f5dc616fa1aa66b93e8412b740b05f2/cookie (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1051d39b0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-03-21 21:05:55,579 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10509ee00>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/0f5dc616fa1aa66b93e8412b740b05f2
+2025-03-21 21:05:55,581 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10509f020>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/0f5dc616fa1aa66b93e8412b740b05f2
+2025-03-21 21:05:55,582 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10509f240>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/0f5dc616fa1aa66b93e8412b740b05f2
+2025-03-21 21:05:55,593 - INFO - Bot shutting down
