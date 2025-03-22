@@ -1,12 +1,24 @@
 {
-    "target_keywords": ["Scarlet & Violet", "Destined Rivals"],
-    "check_interval": 30,
-    "exact_product_url": "",
-    "category_url": "https://www.pokemoncenter.com/en-ca/category/tcg-cards",
-    "max_price": 199.99,
-    "random_delay_min": 1,
-    "random_delay_max": 4,
-    "quantity": 4,
-    "retry_limit": 3,
-    "headless_mode": false
+  "target_keywords": ["Scarlet & Violet", "Destined Rivals"],
+  "check_interval": 30,
+  "random_check_interval": true,
+  "exact_product_url": "",
+  "category_url": "https://www.pokemoncenter.com/en-ca/category/tcg-cards",
+  "max_price": 199.99,
+  "random_delay_min": 2,
+  "random_delay_max": 10,
+  "quantity": 4,
+  "retry_limit": 3,
+  "headless_mode": false,
+  "rotate_user_agents": true,
+  "clear_cookies_interval": 5,
+  "rotate_browser_profiles": true,
+  "proxies": [
+    "98.76.54.32:3128", 
+    "209.127.191.180:9279",
+    "169.197.83.74:6286",
+    "142.44.242.81:8080",
+    "142.44.242.83:8080"
+  ],
+  "proxy_rotation_frequency": 3
 }
